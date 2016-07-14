@@ -83,6 +83,37 @@ body {
     height: 32vw;
 }
 
+#image {
+    float: right;
+    width: 30vw;
+    height: 32vw;
+}
+
+#image img {
+    float: right;
+    margin-top: 3vw;
+    max-height: 25vw;
+    max-width: 25vw;
+    height: auto;
+    width: auto;
+}
+
+#text {
+    float: left;
+    width: 30vw;
+    height: 32vw;
+    position: relative;
+}
+
+#text p {
+    text-align: left;
+    position: absolute;
+    margin: 5vw;
+    font-weight: bold;
+    font-size: 2vw;
+    top: -2.5vw;
+}
+
 #footer {
     clear: both;
     height: 2vw;
@@ -144,7 +175,7 @@ body {
 
 #twitter-link {
     float: right;
-    padding-right: 20vw;
+    padding-right: 0.5vw;
     margin: 0.26vw 0.4vw;
     max-height: 1.5vw;
     max-width: 1.5vw;

@@ -88,6 +88,15 @@ body {
     margin: 2vw 2vw 1vw 2vw;
     font-weight: bold;
     font-size: 1.1vw;
+    clear: left;
+}
+
+.content h3 {
+    float: left;
+    margin: 2vw 2vw 1vw 2vw;
+    font-weight: bold;
+    font-size: 0.9vw;
+    clear: left;
 }
 
 .content p {
@@ -96,6 +105,8 @@ body {
     font-weight: normal;
     font-size: 0.8vw;
     clear: left;
+    text-align: left;
+    line-height: 1vw;
 }
 
 #footer {

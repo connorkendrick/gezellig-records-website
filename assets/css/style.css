@@ -170,21 +170,42 @@ body {
 .article {
     float: right;
     width: 32vw;
-    margin-top: 2vh;
+    margin-top: 1vw;
+    text-align: left;
 }
 
-.article h3 {
-    margin: 0 0.5vw 1vh auto;
+#article-title {
+    margin: 0 auto;
     font-size: 1vw;
-    float: right;
+    float: left;
 }
 
-.article p {
-    float: right;
+#article-date {
+    color: grey;
+    margin: 0;
+}
+
+#article-body {
+    float: left;
     margin: 0 auto;
     text-align: left;
-    font-size: 1vw;
     text-indent: 2vw;
+    line-height: 1.2vw;
+    margin-bottom: 1vw;
+}
+
+#article-image {
+    width: 31vw;
+    margin: 1vw auto;
+}
+
+.article-divider {
+    margin-top: 0.5vw;
+    height: 0.1vw;
+    background-color: grey;
+    float: right;
+    width: 32vw;
+    clear: both;
 }
 
 #footer {
@@ -248,7 +269,7 @@ body {
 
 #twitter-link {
     float: right;
-    padding-right: 20vw;
+    padding-right: 0.5vw;
     margin: 0.26vw 0.4vw;
     max-height: 1.5vw;
     max-width: 1.5vw;

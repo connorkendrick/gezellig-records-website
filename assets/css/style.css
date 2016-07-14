@@ -116,9 +116,18 @@ body {
     float: left;
 }
 
-.release-box p {
+.releases-text {
+    height: 3.33vw;
+    width: 12.9vw;
+    float: right;
+    display: table;
+    text-align: center;
+}
+
+.releases-text p {
+    display: table-cell;
+    vertical-align: middle;
     font-size: 1vw;
-    margin: 1vw 0.5vw 1.5vw 0.5vw;
 }
 
 .album-title {

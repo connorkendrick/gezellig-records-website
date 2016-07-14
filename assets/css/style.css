@@ -131,6 +131,7 @@ body {
 
 .album-title {
     font-style: italic;
+    font-family: serif;
 }
 
 .album-artist {

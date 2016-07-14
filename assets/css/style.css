@@ -177,11 +177,13 @@ body {
     margin: 0 auto;
     font-size: 1vw;
     float: left;
+    font-size: 1vw;
 }
 
 #article-date {
     color: grey;
     margin: 0;
+    font-size: 0.8vw;
 }
 
 #article-body {
@@ -191,6 +193,8 @@ body {
     text-indent: 2vw;
     line-height: 1.2vw;
     margin-bottom: 1vw;
+    font-weight: lighter;
+    font-size: 0.9vw;
 }
 
 #article-image {

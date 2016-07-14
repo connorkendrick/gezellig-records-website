@@ -12,7 +12,6 @@ body {
 
 #main {
     display: block;
-    /*overflow: auto;   Try this if you run into any problems adding content*/
     overflow: hidden;
     width: 60vw;
     margin: 0 auto;

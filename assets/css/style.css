@@ -19,6 +19,8 @@ body {
     background-color: white;
     position: relative;
     z-index: 0;
+    /* Add this for transparent background (logo needs to be fixed if this is used) */
+    /*background:rgba(255,255,255,0.9);*/
 }
 
 #overlay {

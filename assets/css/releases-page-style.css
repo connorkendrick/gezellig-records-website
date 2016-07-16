@@ -96,34 +96,58 @@ td {
 td img {
     width: 16vw;
     height: 16vw;
-    border: solid black 0.1vw;
+    border-bottom: solid black 0.1vw;
 }
 
-.artist-box {
+.release-box {
     width: 16vw;
-    height: 16vw;
+    height: 22vw;
+    border: solid black 0.1vw;
     position: relative;
 }
 
-.overlay {
+.release-info {
+    width: 16vw;
+    height: 6vw;
     position: absolute;
     bottom: 0;
-    height: 4vw;
-    width: 15.9vw;
-    background-color: blue;
-    background:rgba(255,255,255,0.6);
-    display: table;
-    text-align: center;
-    margin-left: 0.1vw;
+    text-align: left;
 }
 
-.overlay h2 {
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 1.5vw;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
+.album-title {
+    width: 16vw;
+    height: 2.5vw;
+    overflow: hidden;
+}
+
+.album-title p {
+    font-size: 0.9vw;
+    font-family: serif;
+    font-style: italic;
+    margin: 0.2vw 0.2vw;
+}
+
+.album-artist {
+    width: 16vw;
+    height: 2.5vw;
+    overflow: hidden;
+}
+
+.album-artist p {
+    font-size: 1vw;
+    margin: 0.2vw 0.2vw;
+}
+
+.release-number {
+    width: 16vw;
+    height: 1vw;
+    overflow: hidden;
+}
+
+.release-number p {
+    font-size: 0.6vw;
+    margin: 0.2vw 0.2vw;
+    color: grey;
 }
 
 #footer {

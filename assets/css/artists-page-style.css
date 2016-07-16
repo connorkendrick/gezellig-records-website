@@ -94,10 +94,36 @@ td {
 }
 
 td img {
-    max-width: 16vw;
-    max-height: 16vw;
+    width: 16vw;
+    height: 16vw;
     border: solid black 0.1vw;
+}
 
+.artist-box {
+    width: 16vw;
+    height: 16vw;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    height: 4vw;
+    width: 15.9vw;
+    background-color: blue;
+    background:rgba(255,255,255,0.6);
+    display: table;
+    text-align: center;
+    margin-left: 0.1vw;
+}
+
+.overlay h2 {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
 
 #footer {

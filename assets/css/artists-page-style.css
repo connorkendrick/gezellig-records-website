@@ -96,12 +96,12 @@ td {
 td img {
     width: 16vw;
     height: 16vw;
-    border: solid black 0.1vw;
 }
 
 .artist-box {
     width: 16vw;
     height: 16vw;
+    border: solid black 0.1vw;
     position: relative;
 }
 
@@ -109,12 +109,11 @@ td img {
     position: absolute;
     bottom: 0;
     height: 4vw;
-    width: 15.9vw;
+    width: 16vw;
     background-color: blue;
     background:rgba(255,255,255,0.6);
     display: table;
     text-align: center;
-    margin-left: 0.1vw;
 }
 
 .overlay h2 {

@@ -80,49 +80,73 @@ body {
 }
 
 .content {
-    min-height: 32vw;
-    height: auto;
+    height: 32vw;
 }
 
-table {
-    margin: auto;
-    padding-top: 1.3vw;
-}
-
-td {
-    padding: 1.4vw;
-}
-
-td img {
-    width: 16vw;
-    height: 16vw;
-}
-
-.artist-box {
-    width: 16vw;
-    height: 16vw;
-    border: solid black 0.1vw;
-    position: relative;
-}
-
-.overlay {
-    position: absolute;
-    bottom: 0;
-    height: 4vw;
-    width: 16vw;
-    background-color: blue;
-    background:rgba(255,255,255,0.6);
-    display: table;
-    text-align: center;
-}
-
-.overlay h2 {
-    display: table-cell;
-    vertical-align: middle;
+.artist {
+    display: inline;
+    float: left;
+    margin: 0;
+    margin-top: 2vw;
+    margin-left: 3vw;
     font-size: 1vw;
     font-weight: bold;
+}
+
+.picture {
+    float: left;
+    max-width: 30vw;
+    max-height: 20vw;
+    clear: both;
+    margin: 0;
+    margin-left: 3vw;
+    margin-right: 1vw;
+    margin-bottom: 0.5vw;
+}
+
+#bio-text {
+    font-size: 0.8vw;
+    line-height: 1.2vw;
+    padding-top: 3vw;
+    padding-left: 1vw;
+    text-align: left;
+    margin-right: 0.5vw;
+    padding-left: 3vw;
+}
+
+.section-divider {
+    margin-top: 0.5vw;
+    height: 0.1vw;
+    background-color: grey;
+    float: left;
+    width: 32vw;
+    clear: both;
+    margin-left: 3vw;
+    margin-bottom: 0.6vw;
+}
+
+#discography {
+    float: left;
+    clear: left;
+    font-size: 0.9vw;
+    /*padding-top: 0.5vw;*/
+    margin-left: 3.5vw;
+}
+
+.link {
+    float: left;
+    clear: left;
+    font-size: 0.9vw;
+    /*margin-top: 1vw;*/
+    margin-left: 3.5vw;
+    display: inline-block;
+    margin-bottom: 1vw;
     text-decoration: none;
     color: black;
+}
+
+.link:hover {
+    color: red;
 }
 
 #footer {

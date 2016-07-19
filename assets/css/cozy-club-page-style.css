@@ -80,7 +80,52 @@ body {
 }
 
 .content {
-    height: 32vw;
+    min-height: 32vw;
+}
+
+.content img {
+    width: 10vw;
+    height: 10vw;
+    border: solid black 0.1vw;
+    float: right;
+    margin-right: 3vw;
+    margin-top: 5vw;
+    margin-left: 1vw;
+}
+
+.content h2 {
+    float: left;
+    font-size: 1vw;
+    font-weight: bold;
+    margin-left: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.content h3 {
+    font-size: 0.7vw;
+    font-weight: bold;
+    float: left;
+    clear: left;
+    margin: 1vw 0 1vw 3vw;
+}
+
+.content p {
+    clear: left;
+    font-size: 0.8vw;
+    text-align: left;
+    margin: 0 3vw 0 3vw;
+    line-height: 1.2vw;
+}
+
+table {
+    margin-left: 1.4vw;
+    margin-top: 1vw;
+}
+
+input {
+    float: left;
+    margin-left: 1.6vw;
 }
 
 #footer {

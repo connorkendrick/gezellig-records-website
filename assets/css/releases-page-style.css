@@ -82,21 +82,21 @@ body {
 .content {
     min-height: 32vw;
     height: auto;
-}
-
-table {
-    margin: auto;
-    padding-top: 1.3vw;
-}
-
-td {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
     padding: 1.4vw;
 }
 
-td img {
-    width: 16vw;
-    height: 16vw;
-    border-bottom: solid black 0.1vw;
+#hidden {
+    height: 0;
+    border: none;
+    margin: 0 1.4vw;
 }
 
 .release-box {
@@ -104,6 +104,13 @@ td img {
     height: 22vw;
     border: solid black 0.1vw;
     position: relative;
+    margin: 1.4vw;
+}
+
+.release-box img {
+    width: 16vw;
+    height: 16vw;
+    border-bottom: solid black 0.1vw;
 }
 
 .release-info {

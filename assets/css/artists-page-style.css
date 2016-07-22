@@ -82,20 +82,21 @@ body {
 .content {
     min-height: 32vw;
     height: auto;
-}
-
-table {
-    margin: auto;
-    padding-top: 1.3vw;
-}
-
-td {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
     padding: 1.4vw;
 }
 
-td img {
-    width: 16vw;
-    height: 16vw;
+#hidden {
+    height: 0;
+    border: none;
+    margin: 0 1.4vw;
 }
 
 .artist-box {
@@ -103,6 +104,12 @@ td img {
     height: 16vw;
     border: solid black 0.1vw;
     position: relative;
+    margin: 1.4vw;
+}
+
+.artist-box img {
+    width: 16vw;
+    height: 16vw;
 }
 
 .overlay {
@@ -110,7 +117,6 @@ td img {
     bottom: 0;
     height: 4vw;
     width: 16vw;
-    background-color: blue;
     background:rgba(255,255,255,0.6);
     display: table;
     text-align: center;

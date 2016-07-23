@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'Drogowskaz';
+    src: url(../fonts/drogowskaz.ttf);
+}
+
 body {
-    font-family: 'Helvetica', sans-serif;
+    /*font-family: 'Helvetica', sans-serif;*/
+    font-family: 'Drogowskaz';
     margin: 0 auto;
     padding: 0;
     background-color: black;
@@ -43,13 +49,13 @@ body {
 }
 
 #brand {
-    font-size: 6vw;
+    font-size: 5.8vw;
     margin: 5vmin auto 0 auto;
     left: 20%;
 }
 
 #navbar {
-    height: 2.7vw;
+    height: 2.9vw;
     clear: both;
 }
 
@@ -104,6 +110,7 @@ body {
     margin: 0 2vw;
     font-weight: normal;
     font-size: 0.8vw;
+    font-family: sans-serif;
     clear: left;
     text-align: left;
     line-height: 1vw;
@@ -111,7 +118,7 @@ body {
 
 #footer {
     clear: both;
-    height: 2vw;
+    height: 2.2vw;
     background-color: black;
 }
 
@@ -153,7 +160,7 @@ body {
     float: left;
     font-size: 1vw;
     display: block;
-    margin: 0.5vw 0.4vw 0 0;
+    margin: 0.4vw 0.4vw 0 0;
     color: white;
     font-weight: bold;
 }
@@ -161,7 +168,7 @@ body {
 
 #contact-link {
     float: right;
-    margin: 0.25vw 0.4vw;
+    margin: 0.35vw 0.4vw;
     max-height: 1.5vw;
     max-width: 1.5vw;
     height: auto;
@@ -171,7 +178,7 @@ body {
 #twitter-link {
     float: right;
     padding-right: 0.5vw;
-    margin: 0.25vw 0.4vw;
+    margin: 0.35vw 0.4vw;
     max-height: 1.5vw;
     max-width: 1.5vw;
     height: auto;

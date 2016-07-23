@@ -3,7 +3,7 @@
     "showCluster": [
         {
             "artist": "",
-            "showList": "No shows have been scheduled."
+            "showList": "<p>No shows have been scheduled.</p>"
         }
     ]
 }

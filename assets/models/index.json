@@ -1,0 +1,43 @@
+{
+	"releasesTitle": "New Releases",
+	"releases": [
+		{
+			"albumArt": "../img/lovefool_cover.jpg",
+			"title": "Lovefool",
+			"artist": "Peak Physique",
+			"albumLink": "http://gezelligrecords.bandcamp.com/album/lovefool",
+			"albumLinkTitle": "Bandcamp"
+		},
+		{
+			"albumArt": "../img/flowers_always_is_cover.jpg",
+			"title": "Flowers / Always Is",
+			"artist": "Best Friend",
+			"albumLink": "http://gezelligrecords.bandcamp.com/album/flowers-always-is",
+			"albumLinkTitle": "Bandcamp"
+		},
+		{
+			"albumArt": "../img/mantra_happening_cover.jpg",
+			"title": "Mantra Happening",
+			"artist": "Lê Almeida",
+			"albumLink": "http://gezelligrecords.bandcamp.com/album/mantra-happening",
+			"albumLinkTitle": "Bandcamp"
+		},
+		{
+			"albumArt": "../img/the_last_enemy_cover.jpg",
+			"title": "the last enemy that will be abolished is death",
+			"artist": "DJ HATRED",
+			"albumLink": "http://gezelligrecords.bandcamp.com/album/the-last-enemy-that-will-be-abolished-is-death",
+			"albumLinkTitle": "Bandcamp"
+		}
+	],
+	"newsTitle": "Recent News",
+	"newsArticles": [
+		{
+			"articleTitle": "New Record Label Launches in Knoxville, TN",
+			"date": "7/25/16",
+			"image": "../img/logo.jpg",
+			"articleText": "Article"
+        }
+	]
+
+}

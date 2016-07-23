@@ -1,0 +1,33 @@
+{
+	"copyright": "Gezellig Records © 2016",
+	"twitterRef": "https://twitter.com/gezelligrecords",
+	"twitterImg": "img/twitter_icon.png",
+	"contactRef": "http://bandcamp.com/contact?b=1169524795&n=Gezellig%20Records",
+	"contactImg": "img/email_icon.png",
+	"links": [
+		{
+			"ref": "/artists",
+			"title": "artists"
+		},
+		{
+			"ref": "/releases",
+			"title": "releases"
+		},
+		{
+			"ref": "/shows",
+			"title": "shows"
+		},
+		{
+			"ref": "http://gezelligrecords.bandcamp.com/",
+			"title": "store"
+		},
+		{
+			"ref": "/cozyclub",
+			"title": "cozy club"
+		},
+		{
+			"ref": "/about",
+			"title": "about"
+		}
+	]
+}

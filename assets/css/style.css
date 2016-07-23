@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'Drogowskaz';
+    src: url(drogowskaz.ttf);
+}
+
 body {
-    font-family: 'Helvetica', sans-serif;
+    /*font-family: 'Helvetica', sans-serif;*/
+    font-family: 'Drogowskaz';     /**************/
     margin: 0 auto;
     padding: 0;
     background-color: black;
@@ -45,13 +51,13 @@ body {
 }
 
 #brand {
-    font-size: 6vw;
+    font-size: 5.8vw;     /*************************/
     margin: 5vmin auto 0 auto;
     left: 20%;
 }
 
 #navbar {
-    height: 2.7vw;
+    height: 2.9vw;
     clear: both;
 }
 
@@ -142,6 +148,8 @@ body {
 
 .album-link a {
     text-decoration: none;
+    font-family: sans-serif;
+    font-size: 0.9vw;
     color: black;
 }
 
@@ -185,6 +193,7 @@ body {
 
 #article-date {
     color: grey;
+    font-family: 'Helvetica', sans-serif;
     margin: 0;
     font-size: 0.8vw;
 }
@@ -193,6 +202,7 @@ body {
     float: left;
     margin: 0 auto;
     text-align: left;
+    font-family: 'Helvetica', sans-serif;
     text-indent: 2vw;
     line-height: 1.2vw;
     margin-bottom: 1vw;
@@ -217,12 +227,12 @@ body {
 
 #footer {
     clear: both;
-    height: 2vw;
+    height: 2.2vw;
     background-color: black;
 }
 
 #footer h4 {
-    margin: 0.4vw;
+    margin: 0.4vw 0.4vw 0.5vw 0.4vw;   /**********/
     float: right;
     color: white;
     font-size: 1vw;
@@ -249,7 +259,7 @@ body {
     float: left;
     font-size: 1vw;
     display: block;
-    margin: 0.5vw 0.4vw 0 0;
+    margin: 0.4vw 0.4vw 0 0;
     color: white;
     text-decoration: none;
     font-weight: lighter;
@@ -259,7 +269,7 @@ body {
     float: left;
     font-size: 1vw;
     display: block;
-    margin: 0.5vw 0.4vw 0 0;
+    margin: 0.4vw 0.4vw 0 0;
     color: white;
     font-weight: bold;
 }
@@ -267,7 +277,7 @@ body {
 
 #contact-link {
     float: right;
-    margin: 0.25vw 0.4vw;
+    margin: 0.35vw 0.4vw;
     max-height: 1.5vw;
     max-width: 1.5vw;
     height: auto;
@@ -277,7 +287,7 @@ body {
 #twitter-link {
     float: right;
     padding-right: 0.5vw;
-    margin: 0.25vw 0.4vw;
+    margin: 0.35vw 0.4vw;
     max-height: 1.5vw;
     max-width: 1.5vw;
     height: auto;

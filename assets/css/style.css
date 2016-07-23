@@ -102,7 +102,7 @@ body {
 #releases-banner h3 {
     color: white;
     float: left;
-    margin: 0.4vw;
+    margin: 0.2vw;
     font-size: 1.2vw;
 }
 
@@ -173,7 +173,7 @@ body {
 #news-banner h3 {
     color: white;
     float: right;
-    margin: 0.4vw;
+    margin: 0.2vw;
     font-size: 1.2vw;
 }
 
@@ -202,21 +202,37 @@ body {
 #article-body {
     float: left;
     clear: left;
-    margin: 0 auto;
     text-align: left;
     font-family: serif;
-    text-indent: 2vw;
     line-height: 1.2vw;
-    margin-bottom: 1vw;
     margin-right: 1vw;
-    font-weight: lighter;
     font-size: 0.9vw;
+}
+
+#article-body p {
+    margin: 0;
+}
+
+#article-body ul lh {
+    margin-left: -2vw;
+}
+
+#article-body ul li {
+    margin: 1vw 0;
 }
 
 #article-image {
     height: 10vw;
-    float: left;
+    width: 32vw;
     margin: 1vw auto;
+    text-align: center;
+}
+
+#article-image img {
+    height: 10vw;
+    max-width: 32vw;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .article-divider {

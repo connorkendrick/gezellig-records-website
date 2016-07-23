@@ -201,6 +201,7 @@ body {
 
 #article-body {
     float: left;
+    clear: left;
     margin: 0 auto;
     text-align: left;
     font-family: serif; /**/
@@ -214,7 +215,7 @@ body {
 
 #article-image {
     height: 10vw;
-
+    float: left;
     margin: 1vw auto;
 }
 

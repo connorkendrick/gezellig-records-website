@@ -48,7 +48,7 @@ app.get('/releases', function(req, res) {
 });
 
 app.get('/shows', function(req, res) {
-	var view = {};
+	var view = JSON.parse(fs.readFileSync('assets/models/shows.json', 'utf8'));
 	var nav = JSON.parse(fs.readFileSync('assets/models/nav.json', 'utf8'));
 	view["header"] = nav.links;
 	view["footer"] = nav;

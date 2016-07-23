@@ -64,7 +64,7 @@ app.get('/cozyclub', function(req, res) {
 });
 
 app.get('/about', function(req, res) {
-	var view = {};
+	var view = JSON.parse(fs.readFileSync('assets/models/about.json'));
 	var nav = JSON.parse(fs.readFileSync('assets/models/nav.json', 'utf8'));
 	view["header"] = nav.links;
 	view["footer"] = nav;

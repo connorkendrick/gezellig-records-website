@@ -2,69 +2,52 @@
 <html>
     <head>
         <title>Gezellig Records</title>
-        <link rel="stylesheet" href="assets/css/about-page-style.css"/>
+        <link rel="stylesheet" href="../css/about-page-style.css"/>
     </head>
     <body>
 
         <div id="main">
 
-            <div id="overlay"><a id="homepage-link" href="index.html"></a></div>
+            <div id="overlay"><a id="homepage-link" href="/"></a></div>
 
             <div>
-                <img id="logo" src="assets/img/logo.jpg"/>
+                <img id="logo" src="../img/logo.jpg"/>
                 <h1 id="brand">gezellig records</a></h1>
             </div>
 
             <div id="navbar">
                 <ul>
-                    <!-- <li><a href="#">news</a></li> -->
-                    <li><a href="artists-page.html">artists</a></li>
-                    <li><a href="releases-page.html">releases</a></li>
-                    <li><a href="shows-page.html">shows</a></li>
-                    <li><a href="http://gezelligrecords.bandcamp.com/" target="_blank">store</a></li>
-                    <li><a href="cozy-club-page.html">cozy club</a></li>
-                    <li><a href="about-page.html">about</a></li>
+                {{#header}}
+                    <li><a href="{{ref}}">{{title}}</a></li>
+                {{/header}}
                 </ul>
             </div>
 
             <div class="divider"></div>
 
-
             <div class="content">
-                <div id="text">
-                    <p>Gezellig Records is a small, independent label based in Knoxville, Tennessee. <br><br>We are focused on bringing the artists and the listeners of the world into a sense of togetherness.</p>
-                </div>
+                <div id="text">{{{aboutText}}}</div>
                 <div id="image">
-                    <img src="assets/img/logo.jpg"/>
+                    <img src="{{aboutImage}}"/>
                 </div>
             </div>
 
 
             <div id="footer">
-                <h4>Gezellig Records &copy; 2016</h4>
+                <h4>{{footer.copyright}}</h4>
 
-                <a href="https://twitter.com/gezelligrecords" target="_blank">
-                    <img id="twitter-link" src="assets/img/twitter_icon.png"/>
+                <a href="{{footer.twitterRef}}" target="_blank">
+                    <img id="twitter-link" src="{{footer.twitterImg}}"/>
                 </a>
-                <a href="http://bandcamp.com/contact?b=1169524795&n=Gezellig%20Records" target="_blank">
-                    <img id="contact-link" src="assets/img/email_icon.png"/>
+                <a href="{{footer.contactRef}}" target="_blank">
+                    <img id="contact-link" src="{{footer.contactImg}}"/>
                 </a>
 
                 <div id="footer-links">
                     <ul>
-                        <!-- <li><a href="#">news</a></li>
-                        <li><p>|</p></li> -->
-                        <li><a href="artists-page.html">artists</a></li>
-                        <li><p>|</p></li>
-                        <li><a href="releases-page.html">releases</a></li>
-                        <li><p>|</p></li>
-                        <li><a href="shows-page.html">shows</a></li>
-                        <li><p>|</p></li>
-                        <li><a href="http://gezelligrecords.bandcamp.com/" target="_blank">store</a></li>
-                        <li><p>|</p></li>
-                        <li><a href="cozy-club-page.html">cozy club</a></li>
-                        <li><p>|</p></li>
-                        <li><a href="about-page.html">about</a></li>
+                    {{#footer.links}}
+                        <li><a href="{{ref}}">{{title}} | </a></li>
+                    {{/footer.links}}
                     </ul>
                 </div>
             </div>

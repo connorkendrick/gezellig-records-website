@@ -107,11 +107,19 @@ body {
 
 #text p {
     text-align: left;
-    position: absolute;
-    margin: 5vw 5vw 5vw 10vw;
-    font-weight: normal;
+    float: left;
+    clear: left;
+    margin: 0.5vw 0 0.5vw 3vw;
+    font-family: serif;
+    font-size: 0.9vw;
+    line-height: 1.2vw;
+}
+
+#text h3 {
+    margin-left: 3vw;
+    margin-bottom: 0;
+    float: left;
     font-size: 1vw;
-    top: 6vw;
 }
 
 #footer {

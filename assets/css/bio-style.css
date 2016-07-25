@@ -112,6 +112,7 @@ body {
 
 #bio-text {
     font-size: 0.8vw;
+    font-family: serif;
     line-height: 1.2vw;
     padding-top: 3vw;
     padding-left: 1vw;
@@ -143,6 +144,7 @@ body {
     float: left;
     clear: left;
     font-size: 0.9vw;
+    font-family: sans-serif;
     /*margin-top: 1vw;*/
     margin-left: 3.5vw;
     display: inline-block;

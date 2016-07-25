@@ -64,6 +64,7 @@ body {
 #navbar ul {
     list-style-type: none;
     overflow: hidden;
+    padding-left: 2vw;
 }
 
 #navbar ul li {

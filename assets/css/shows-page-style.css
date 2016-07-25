@@ -116,6 +116,15 @@ body {
     line-height: 1vw;
 }
 
+.content a {
+    text-decoration: none;
+    color: black;
+}
+
+.content a:hover {
+    color: red;
+}
+
 #footer {
     clear: both;
     height: 2.2vw;

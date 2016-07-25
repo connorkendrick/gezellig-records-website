@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'Drogowskaz';
+    src: url(../fonts/drogowskaz.ttf);
+}
+
 body {
-    font-family: 'Helvetica', sans-serif;
+    /*font-family: 'Helvetica', sans-serif;*/
+    font-family: 'Drogowskaz';
     margin: 0 auto;
     padding: 0;
     background-color: black;
@@ -43,13 +49,13 @@ body {
 }
 
 #brand {
-    font-size: 6vw;
+    font-size: 5.8vw;
     margin: 5vmin auto 0 auto;
     left: 20%;
 }
 
 #navbar {
-    height: 2.7vw;
+    height: 2.9vw;
     clear: both;
 }
 
@@ -82,20 +88,21 @@ body {
 .content {
     min-height: 32vw;
     height: auto;
-}
-
-table {
-    margin: auto;
-    padding-top: 1.3vw;
-}
-
-td {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
     padding: 1.4vw;
 }
 
-td img {
-    width: 16vw;
-    height: 16vw;
+#hidden {
+    height: 0;
+    border: none;
+    margin: 0 1.4vw;
 }
 
 .artist-box {
@@ -103,6 +110,12 @@ td img {
     height: 16vw;
     border: solid black 0.1vw;
     position: relative;
+    margin: 1.4vw;
+}
+
+.artist-box img {
+    width: 16vw;
+    height: 16vw;
 }
 
 .overlay {
@@ -110,7 +123,6 @@ td img {
     bottom: 0;
     height: 4vw;
     width: 16vw;
-    background-color: blue;
     background:rgba(255,255,255,0.6);
     display: table;
     text-align: center;
@@ -119,7 +131,7 @@ td img {
 .overlay h2 {
     display: table-cell;
     vertical-align: middle;
-    font-size: 1vw;
+    font-size: 1.3vw;
     font-weight: bold;
     text-decoration: none;
     color: black;
@@ -127,7 +139,7 @@ td img {
 
 #footer {
     clear: both;
-    height: 2vw;
+    height: 2.2vw;
     background-color: black;
 }
 
@@ -169,7 +181,7 @@ td img {
     float: left;
     font-size: 1vw;
     display: block;
-    margin: 0.5vw 0.4vw 0 0;
+    margin: 0.4vw 0.4vw 0 0;
     color: white;
     font-weight: bold;
 }
@@ -177,7 +189,7 @@ td img {
 
 #contact-link {
     float: right;
-    margin: 0.25vw 0.4vw;
+    margin: 0.35vw 0.4vw;
     max-height: 1.5vw;
     max-width: 1.5vw;
     height: auto;
@@ -187,7 +199,7 @@ td img {
 #twitter-link {
     float: right;
     padding-right: 0.5vw;
-    margin: 0.25vw 0.4vw;
+    margin: 0.35vw 0.4vw;
     max-height: 1.5vw;
     max-width: 1.5vw;
     height: auto;

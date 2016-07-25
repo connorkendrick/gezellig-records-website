@@ -9,8 +9,7 @@ body {
     margin: 0 auto;
     padding: 0;
     background-color: black;
-    background: url('../img/background.jpg') no-repeat center center;
-    /*background: url('../img/background.jpg') no-repeat fixed;*/
+    background: url('../img/background.jpg') no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

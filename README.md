@@ -1,5 +1,5 @@
 # gezellig-records-website
-This is the official website for Gezellig Records
+This repository is for the official Gezellig Records website
 
 http://www.gezelligrecords.com
 

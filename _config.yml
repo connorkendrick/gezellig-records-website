@@ -79,6 +79,7 @@ prose:
     - .gitignore
     - favicon.ico
     - README.md
+    - CNAME
     - /_layouts
     - /_includes
     - /releases

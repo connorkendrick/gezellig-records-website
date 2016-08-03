@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<h2 class="artist">{{ page.artist }}</h2>
+
+<img class="picture" src="{{ site.baseurl | append: '/images/artists/' | append: page.image }}"/>
+
+<div id="bio-text">{{ content }}</div>
+
+<div class="section-divider"></div>
+
+{% for post in site.categories.albums %}
+    {% if post.artist == page.artist %}
+        <p id="discography">
+            <span style="font-style: italic; font-family: serif;">
+                {{post.releaseNo | append: ": " | append: post.album}}
+            </span>
+        </p>
+    {% endif %}
+{% endfor %}
+
+<div class="section-divider"></div>
+
+{% if page.website != " " %}
+    <a class=link href="{{page.website}}">Website</a>
+{% endif %}
+
+
+{% if page.bandcamp != " " %}
+    <a class=link href="{{page.bandcamp}}">Bandcamp</a>
+{% endif %}
+
+
+{% if page.soundcloud != " " %}
+    <a class=link href="{{page.soundcloud}}">SoundCloud</a>
+{% endif %}
+
+
+{% if page.facebook != " " %}
+    <a class=link href="{{page.facebook}}">Facebook</a>
+{% endif %}
+
+
+{% if page.twitter != " " %}
+    <a class=link href="{{page.twitter}}">Twitter</a>
+{% endif %}
+
+
+{% if page.youtube != " " %}
+    <a class=link href="{{page.youtube}}">YouTube</a>
+{% endif %}
+
+
+{% if page.instagram != " " %}
+    <a class=link href="{{page.instagram}}">Instagram</a>
+{% endif %}

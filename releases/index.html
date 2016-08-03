@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% for post in site.categories.albums %}
+    <div class="release-box">
+        <a href="{{post.link}}">
+            <img src="../images/albums/{{ post.image }}"/>
+        </a>
+        <div class="release-info">
+            <div class="album-title">
+                <p>{{post.album}}</p>
+            </div>
+            <div class="album-artist">
+                <p>{{post.artist}}</p>
+            </div>
+            <div class="release-number">
+                <p>{{post.releaseNo}}</p>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+
+<div class="release-box" id="hidden"></div>
+<div class="release-box" id="hidden"></div>
+<div class="release-box" id="hidden"></div>

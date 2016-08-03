@@ -1,0 +1,17 @@
+<head>
+    <title>Gezellig Records</title>
+    {% if page.url == '/' %}
+        <link rel="stylesheet" href="assets/css/style.css"/>
+    {% elsif page.layout == "bio" %}
+        <link rel="stylesheet" href="{{ site.baseurl | append: '/assets/css/bio-style.css' }}"/>
+    {% elsif page.is_post %}
+        <link rel="stylesheet" href="{{ site.baseurl | append: '/assets/css/article-style.css' }}"/>
+    {% else %}
+        {% assign page_url_1 = page.url %}
+        {% assign page_url_2 = {{page_url_1 | remove: "/"}} %}
+        <link rel="stylesheet" href="{{ site.baseurl | append: '/assets/css/' | append: page_url_2 | append: '-style.css' }}"/>
+    {% endif %}
+
+    <link rel="shortcut icon" href="{{ site.baseurl | append: '/favicon.ico'}}" type="image/x-icon">
+    <link rel="icon" href="{{ site.baseurl | append: '/favicon.ico'}}" type="image/x-icon">
+</head>

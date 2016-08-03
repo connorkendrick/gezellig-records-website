@@ -91,84 +91,40 @@ body {
     height: 32vw;
 }
 
-.artist {
-    display: inline;
+.content h2 {
     float: left;
-    margin: 0;
-    margin-top: 2vw;
-    margin-left: 3vw;
-    font-size: 1vw;
+    margin: 2vw 2vw 0 2vw;
     font-weight: bold;
-}
-
-.picture {
-    float: left;
-    max-width: 30vw;
-    max-height: 20vw;
-    clear: both;
-    margin: 0;
-    margin-left: 3vw;
-    margin-right: 1vw;
-    margin-bottom: 0.5vw;
-}
-
-#bio-text {
-    padding-top: 3.1vw;
-}
-
-#bio-text p {
-    font-size: 0.9vw;
-    font-family: serif;
-    line-height: 1.2vw;
-    text-align: left;
-    margin: 0 0.5vw 1vw 3vw;
-}
-
-#bio-text ul {
-    font-size: 0.9vw;
-    font-family: serif;
-    line-height: 1.2vw;
-    text-align: left;
-    margin: 0 0.5vw 1vw 3vw;
-    list-style-type: none;
-}
-
-.section-divider {
-    margin-top: 0.5vw;
-    height: 0.1vw;
-    background-color: grey;
-    float: left;
-    clear: both;
-    width: 30vw;
-    clear: both;
-    margin-left: 3vw;
-    margin-bottom: 0.6vw;
-    display: block;
-}
-
-#discography {
-    float: left;
+    font-size: 1.1vw;
     clear: left;
-    text-align: left;
-    font-size: 0.9vw;
-    /*padding-top: 0.5vw;*/
-    margin-left: 3.5vw;
 }
 
-.link {
+.content h3 {
     float: left;
-    clear: left;
+    margin: 2vw 2vw 0.2vw 2vw;
+    font-weight: bold;
     font-size: 0.9vw;
+    clear: left;
+}
+
+.content p {
+    float: left;
+    margin: 0 2vw;
+    font-weight: normal;
+    font-size: 0.8vw;
     font-family: sans-serif;
-    margin-left: 3.5vw;
-    display: inline-block;
-    margin-bottom: 1vw;
-    text-decoration: none;
-    color: black;
+    clear: left;
+    text-align: left;
+    line-height: 1vw;
 }
 
-.link:hover {
+.content a {
+    text-decoration: none;
     color: red;
+}
+
+.content a:hover {
+    text-decoration: underline;
 }
 
 #footer {

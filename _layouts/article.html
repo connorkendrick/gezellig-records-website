@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<div class="article">
+    <h3 id="article-title">{{ page.title }}</h3>
+    <p id="article-date"><br>{{ page.date | date: '%B %d, %Y' }}</p>
+    <div id="article-image"><img src="{{ site.baseurl | append: '/images/articles/' | append: page.image }}"/></div>
+    <div id="article-body">{{ content }}</div>
+</div>

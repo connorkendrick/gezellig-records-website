@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{% for page in site.pages %}
+    {% if page.layout == 'bio' %}
+        <div class="artist-box">
+            <a href="{{ site.baseurl }}{{ page.url }}">
+                <div class="overlay">
+                    <h2>{{ page.artist }}</h2>
+                </div>
+                <img src="{{ site.baseurl }}/images/artists/{{ page.image }}"/>
+            </a>
+        </div>
+    {% endif %}
+{% endfor %}
+
+<div class="artist-box" id="hidden"></div>
+<div class="artist-box" id="hidden"></div>
+<div class="artist-box" id="hidden"></div>

@@ -1,0 +1,183 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Gezellig Records
+email: gezelligrecords@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is the official website for Gezellig Records.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://gezelligrecords.com" # the base hostname & protocol for your site
+twitter_username: gezelligrecords
+github_username:  connorkendrick
+
+# Build settings
+markdown: kramdown
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: "bios" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      permalink: "artists/:basename"
+      published: "true"
+      layout: "bio"
+      artist: ""
+      image: ""
+      website: " "
+      bandcamp: " "
+      soundcloud: " "
+      facebook: " "
+      twitter: " "
+      youtube: " "
+      instagram: " "
+
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      is_post: true
+
+  -
+    scope:
+      path: "_posts/albums"
+      type: "posts"
+    values:
+      categories: "albums"
+      published: "true"
+      album: ""
+      artist: ""
+      image: ""
+      releaseNo: ""
+      link: ""
+
+  -
+    scope:
+      path: "_posts/articles"
+      type: "posts"
+    values:
+      categories: "articles"
+      layout: "article"
+      published: "true"
+      permalink: "news/:year/:month/:title"
+      title: ""
+      image: ""
+
+# Prose.io Configurations
+prose:
+  siteurl: 'http://gezelligrecords.com'
+  ignore:
+    - index.html
+    - _config.yml
+    - .gitignore
+    - favicon.ico
+    - README.md
+    - /_layouts
+    - /_includes
+    - /releases
+    - /artists
+    - /assets
+    - /news
+  metadata:
+    bios:
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
+      - name: "artist"
+        field:
+          element: "text"
+          label: "Artist"
+          placeholder: "DJ Khaled"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Bio Photo"
+          placeholder: "file_name.jpg"
+      - name: "website"
+        field:
+          element: "text"
+          label: "Website"
+          placeholder: "Website URL"
+      - name: "bandcamp"
+        field:
+          element: "text"
+          label: "Bandcamp"
+          placeholder: "Bandcamp URL"
+      - name: "soundcloud"
+        field:
+          element: "text"
+          label: "SoundCloud"
+          placeholder: "SoundCloud URL"
+      - name: "facebook"
+        field:
+          element: "text"
+          label: "Facebook"
+          placeholder: "Facebook URL"
+      - name: "twitter"
+        field:
+          element: "text"
+          label: "Twitter"
+          placeholder: "Twitter URL"
+      - name: "youtube"
+        field:
+          element: "text"
+          label: "YouTube"
+          placeholder: "YouTube URL"
+      - name: "instagram"
+        field:
+          element: "text"
+          label: "Instagram"
+          placeholder: "Instagram URL"
+    _posts/albums:
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
+      - name: "album"
+        field:
+          element: "text"
+          label: "Album Name"
+          placeholder: "Suffering from Success"
+      - name: "artist"
+        field:
+          element: "text"
+          label: "Artist"
+          placeholder: "DJ Khaled"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Cover Art"
+          placeholder: "file_name.jpg"
+      - name: "releaseNo"
+        field:
+          element: "text"
+          label: "GZR Release Number"
+          placeholder: "GZR-001"
+      - name: "link"
+        field:
+          element: "text"
+          label: "Download Link"
+          placeholder: "URL"
+    _posts/articles:
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "Gezellig Records Announces New Artist"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Article Image"
+          placeholder: "file_name.jpg"

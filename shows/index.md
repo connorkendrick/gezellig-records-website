@@ -4,12 +4,6 @@ published: true
 ---
 ## Current Shows
 
-### Best Friend
-
-### Crvi
-
-### DJ HATRED
-
 ### Lê Almeida
 
 8/23 - São Paulo, Brazil @ SESC Pompeia - Free

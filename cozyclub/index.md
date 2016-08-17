@@ -1,5 +1,6 @@
 ---
 layout: default
+published: true
 ---
 ## Gezellig Records Cozy Club
 
@@ -7,9 +8,9 @@ layout: default
 
 The Gezellig Records Cozy Club is a subscription series in which subscribers will receive the next 10 consecutive physical releases from Gezellig Records. In addition to the physical releases, subscribers will also receive first access to new releases, free downloads of digital releases, free shipping, and other goodies.
 
-By joining the Cozy Club, you directly support Gezellig Records. You will get a range of perks and help keep the label alive. The cost of a membership goes to paying for things like packaging, production, operational costs and more.
+By joining the Cozy Club, you directly invest in Gezellig Records. Cozy Club Members will get a range of perks and help keep the label alive. The cost of a membership goes to paying for things like packaging, production, operational costs and more. Essentially, your membership helps produce an album by one of our artists.
 
-Limited to 100 people. Shipping is included in the price. You may join at any time. Please read the fine print below.
+It is $150. Limited to 100 people. Shipping is included in the price. You may join at any time. Please read the fine print below.
 
 
 To summarize, subscribers will receive:

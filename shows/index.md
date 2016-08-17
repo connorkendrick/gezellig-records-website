@@ -30,11 +30,4 @@ published: true
 
 9/2 - Knoxville, TN @ Open Chord - End of Summer Bash w/ Luminoth, the Billy Widgets, & Indighost - [more info](http://www.openchordmusic.com/new-events/2016/9/2/end-of-summer-bash-ft-luminoth-the-billy-widgets-peak-physique-indighost)
 
-
-
-
-
-
-
-
-
+9/3 - Knoxville, TN @ the Concourse at the International w/ Strung Like a Horse - [tickets](http://www.ticketweb.com/t3/sale/SaleEventDetail?dispatch=loadSelectionData&eventId=6826995&REFID=clientsite)

@@ -4,14 +4,7 @@ published: true
 ---
 ## Current Shows
 
-### Lê Almeida
-
-8/23 - São Paulo, Brazil @ SESC Pompeia - Free
-
 ### No Men
-8/17 - Chicago, IL @ Double Door w/ Kitten Forever, Royal Brat, & Swimsuit Addition - [tickets](http://www.etix.com/ticket/p/6231466/kitten-forever-chicago-double-door?partner_id=240)
-
-8/20 - Chicago, IL @ Club Soda
 
 8/26 - Chicago, IL @ Cole's - Free
 

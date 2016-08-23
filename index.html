@@ -39,7 +39,7 @@ layout: default
     {% endfor %}
 
     {% for post in site.categories.articles limit:5 %}
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <a id="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         {% if forloop.first == true %}
             <div id="preview" style="max-height: 10vw;">
                 {{ post.excerpt }}

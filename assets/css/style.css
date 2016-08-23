@@ -204,7 +204,7 @@ body {
     right: -100%;
 }
 
-#news a {
+#post-title {
     display: block;
     font-size: 1vw;
     text-decoration: none;
@@ -223,12 +223,11 @@ body {
     border-top: solid black 0.1vw;
 }
 
-#news a:hover {
+#post-title:hover {
     color: red;
 }
 
 #preview {
-    /*display: none;*/
     float: right;
     width: 31.9vw;
     margin-top: 0;
@@ -242,6 +241,7 @@ body {
 #preview p {
     float: left;
     clear: left;
+    display: inline;
     text-align: left;
     font-family: serif;
     line-height: 1.2vw;
@@ -251,7 +251,17 @@ body {
     line-height: 1.5vw;
 }
 
-#news a:hover + #preview {
+#preview a {
+    display: inline;
+    text-align: left;
+    font-family: serif;
+    line-height: 1.2vw;
+    font-size: 0.9vw;
+    margin-bottom: 1vw;
+    line-height: 1.5vw;
+}
+
+#post-title:hover + #preview {
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
 

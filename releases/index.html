@@ -3,18 +3,18 @@ layout: default
 ---
 {% for post in site.categories.albums %}
     <div class="release-box">
-        <a href="{{post.link}}">
+        <a href="{{ site.baseurl }}{{ post.url }}">
             <img src="../images/albums/{{ post.image }}"/>
         </a>
         <div class="release-info">
             <div class="album-title">
-                <p>{{post.album}}</p>
+                <p>{{ post.title }}</p>
             </div>
             <div class="album-artist">
-                <p>{{post.artist}}</p>
+                <p>{{ post.artist }}</p>
             </div>
             <div class="release-number">
-                <p>{{post.releaseNo}}</p>
+                <p>{{ post.releaseNo }}</p>
             </div>
         </div>
     </div>

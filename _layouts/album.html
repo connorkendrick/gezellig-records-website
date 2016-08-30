@@ -1,0 +1,66 @@
+---
+layout: default
+---
+<h2 class="album-title">{{ page.title }}</h2>
+
+<img class="album-cover" src="{{ site.baseurl | append: '/images/albums/' | append: page.image }}"/>
+
+<div id="album-description">{{ content }}</div>
+
+<div class="section-divider"></div>
+
+<p id="releaseNo">
+    <span style="font-style: italic; font-family: serif;">
+        Artist: {{ page.artist }}
+        <br/><br/>
+        Release No: {{ page.releaseNo }}
+    </span>
+</p>
+
+<div class="section-divider"></div>
+
+{% if page.itunes != " " %}
+    <a class=link href="{{ page.itunes }}">iTunes</a>
+{% endif %}
+
+
+{% if page.bandcamp != " " %}
+    <a class=link href="{{ page.bandcamp }}">Bandcamp</a>
+{% endif %}
+
+
+{% if page.spotify != " " %}
+    <a class=link href="{{ page.spotify }}">Spotify</a>
+{% endif %}
+
+
+{% if page.soundcloud != " " %}
+    <a class=link href="{{ page.soundcloud }}">SoundCloud</a>
+{% endif %}
+
+
+{% if page.youtube != " " %}
+    <a class=link href="{{ page.youtube }}">YouTube</a>
+{% endif %}
+
+
+{% if page.vimeo != " " %}
+    <a class=link href="{{ page.vimeo }}">Vimeo</a>
+{% endif %}
+
+
+{% if page.tidal != " " %}
+    <a class=link href="{{ page.tidal }}">Tidal</a>
+{% endif %}
+
+{% if page.googlePlay != " " %}
+    <a class=link href="{{ page.googlePlay }}">Google Play</a>
+{% endif %}
+
+{% if page.website != " " %}
+    <a class=link href="{{ page.website }}">Website</a>
+{% endif %}
+
+{% if page.other != " " %}
+    <a class=link href="{{ page.other }}">Other</a>
+{% endif %}

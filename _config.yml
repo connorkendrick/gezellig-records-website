@@ -52,11 +52,23 @@ defaults:
     values:
       categories: "albums"
       published: "true"
-      album: ""
+      layout: "album"
+      permalink: "releases/:title"
+      title: ""
       artist: ""
       image: ""
       releaseNo: ""
-      link: ""
+      homePageLink: " "
+      itunes: " "
+      bandcamp: " "
+      spotify: " "
+      soundcloud: " "
+      youtube: " "
+      vimeo: " "
+      tidal: " "
+      googlePlay: " "
+      website: " "
+      other: " "
 
   -
     scope:
@@ -142,7 +154,7 @@ prose:
         field:
           element: "hidden"
           value: "true"
-      - name: "album"
+      - name: "title"
         field:
           element: "text"
           label: "Album Name"
@@ -162,11 +174,61 @@ prose:
           element: "text"
           label: "GZR Release Number"
           placeholder: "GZR-001"
-      - name: "link"
+      - name: "homePageLink"
         field:
           element: "text"
-          label: "Download Link"
-          placeholder: "URL"
+          label: "Home Page Link"
+          placeholder: "Link you want the 'download' button to go to on the home page"
+      - name: "itunes"
+        field:
+          element: "text"
+          label: "iTunes"
+          placeholder: "iTunes URL"
+      - name: "bandcamp"
+        field:
+          element: "text"
+          label: "Bandcamp"
+          placeholder: "Bandcamp URL"
+      - name: "spotify"
+        field:
+          element: "text"
+          label: "Spotify"
+          placeholder: "Spotify URL"
+      - name: "soundcloud"
+        field:
+          element: "text"
+          label: "SoundCloud"
+          placeholder: "SoundCloud URL"
+      - name: "youtube"
+        field:
+          element: "text"
+          label: "YouTube"
+          placeholder: "YouTube URL"
+      - name: "vimeo"
+        field:
+          element: "text"
+          label: "Vimeo"
+          placeholder: "Vimeo URL"
+      - name: "tidal"
+        field:
+          element: "text"
+          label: "Tidal"
+          placeholder: "Tidal URL"
+      - name: "googlePlay"
+        field:
+          element: "text"
+          label: "Google Play"
+          placeholder: "Google Play URL"
+      - name: "website"
+        field:
+          element: "text"
+          label: "Website"
+          placeholder: "Website URL"
+      - name: "other"
+        field:
+          element: "text"
+          label: "Other"
+          placeholder: "Other URL"
     _posts/articles:
       - name: "published"
         field:

@@ -67,6 +67,7 @@ defaults:
       vimeo: " "
       tidal: " "
       googlePlay: " "
+      amazon: " "
       website: " "
       paypal: " "
       other: " "
@@ -220,6 +221,11 @@ prose:
           element: "text"
           label: "Google Play"
           placeholder: "Google Play URL"
+      - name: "amazon"
+        field:
+          element: "text"
+          label: "Amazon"
+          placeholder: "Amazon URL"
       - name: "website"
         field:
           element: "text"

@@ -41,11 +41,11 @@ Finally, hit 'Save' on the right side, and press 'Commit' on the box that pops u
 POSTS
 ------
 ALBUMS:
-*   Create a new file, keep the date part in the title up at the top, then change the 'your-filename' part to a name like the other files (band-name-album-name.md)
-*   Just look at the other files if you can't remember what to name the file.
-
-*   Don't write anything in the content section. Just fill out the meta-data.
-*   The download link doesn't necessarily have to be a download. I felt like I needed to say that for some reason. It's just the link you want people to be taken to when they click the release.
+*   Create a new file, make the title at the top the name of the album. It'll be renamed to fit the correct format.
+*   Ex. What you entered: Mantra Happening  -->  File name created automatically: 2016-07-30-mantra-happening.md
+*   Write a description of the album (optional), then fill out the meta-data.
+*   The home page link is what you want users to be linked to when they click the 'download' button on the release info on the home page. Note: You'll still need to put that url in the corresponding section in the metadata.
+*	Note: iTunes, Bandcamp, Spotify, etc. are not required to be filled out. Artist, Cover Art, Release No, and Homepage Link are required, however.
 *   REMEMBER: make sure the image name is exactly the same as the image file name
 
 

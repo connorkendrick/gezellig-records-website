@@ -68,6 +68,7 @@ defaults:
       tidal: " "
       googlePlay: " "
       website: " "
+      paypal: " "
       other: " "
 
   -
@@ -224,6 +225,11 @@ prose:
           element: "text"
           label: "Website"
           placeholder: "Website URL"
+      - name: "paypal"
+        field:
+          element: "text"
+          label: "PayPal"
+          placeholder: "PayPal URL"
       - name: "other"
         field:
           element: "text"

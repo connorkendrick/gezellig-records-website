@@ -13,7 +13,7 @@ layout: default
     {% if post.artist == page.artist %}
         <p id="discography">
             <span style="font-style: italic; font-family: serif;">
-                {{post.releaseNo | append: ": " | append: post.album}}
+                {{post.releaseNo | append: ": " | append: post.title}}
             </span>
         </p>
     {% endif %}

@@ -179,8 +179,8 @@ prose:
       - name: "homePageLink"
         field:
           element: "text"
-          label: "Home Page Link"
-          placeholder: "Link you want the 'download' button to go to on the home page"
+          label: "Homepage Link"
+          placeholder: "'Download' button"
       - name: "itunes"
         field:
           element: "text"

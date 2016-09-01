@@ -135,6 +135,10 @@ body {
     list-style-type: none;
 }
 
+#album-description form {
+    float: left;
+}
+
 .section-divider {
     margin-top: 0.5vw;
     height: 0.1vw;

@@ -29,7 +29,7 @@ To summarize, subscribers will receive:
 GZR-001 DJ HATRED - *the last enemy that will be abolished is death*  
 GZR-002 Lê Almeida - *Mantra Happening*  
 GZR-005 Peak Physique - *Peak Physique* // coming Fall 2016  
-GZR-006 No Men - *Dear God Bring The Doom* // coming Fall 2016  
+GZR-006 No Men - [*Dear God Bring The Doom*](http://gezelligrecords.com/releases/dear-god-bring-the-doom) // 8 October 2016  
 GZR-007 CRVI - *tbd* // coming Fall 2016  
 
 

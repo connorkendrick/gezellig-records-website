@@ -180,7 +180,7 @@ prose:
         field:
           element: "text"
           label: "Homepage Link"
-          placeholder: "'Download' button"
+          placeholder: "Download button"
       - name: "itunes"
         field:
           element: "text"

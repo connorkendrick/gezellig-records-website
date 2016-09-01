@@ -4,7 +4,7 @@ title: 'Dear God, Bring The Doom'
 artist: No Men
 image: nomen-DGBTD.JPG
 releaseNo: GZR-006
-website: 'http://nofuckingmen.com/'
+website: 'http://nofuckingmen.com/music/'
 bandcamp: 'https://no-men.bandcamp.com/album/dear-god-bring-the-doom'
 homePageLink: 'https://no-men.bandcamp.com/album/dear-god-bring-the-doom'
 ---

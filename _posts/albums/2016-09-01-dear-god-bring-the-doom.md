@@ -12,7 +12,7 @@ No Men's first proper full-length, _Dear God, Bring The Doom_ was recorded at Tw
 
 Gezellig Records is proud to release _Dear God, Bring The Doom_ via cassette for Cassette Store Day 2016. 
 
-First edition limited to run of 100 high-bias chrome tapes
+First edition limited to run of 100 high-bias chrome tapes, includes digital download
 
 No Men is Pursley, DB, and Eric Hofmeister
 recorded by Brian Fox (Two States Audio)

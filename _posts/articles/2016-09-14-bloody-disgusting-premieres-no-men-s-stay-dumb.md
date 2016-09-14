@@ -11,5 +11,5 @@ Greg Stephen Reigh, the video’s director, shares with BLOODY-DISGUSTING, “Th
 
 The music video for “Stay Dumb” precedes NO MEN’s debut album Dear God, Bring The Doom out via cassette on October 8, 2016, on GEZELLIG RECORDS. Pre-orders are available [here](http://gezelligrecords.com/releases/dear-god-bring-the-doom) or NO MEN’s [bandcamp](http://no-men.bandcamp.com).
 
-<iframe src="https://player.vimeo.com/video/179837928" width="640" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/179837928" width="481" height="272" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/179837928">NO MEN - &quot;STAY DUMB&quot; (OFFICIAL MUSIC VIDEO)</a> from <a href="https://vimeo.com/gregreigh">Greg Stephen Reigh</a> on <a href="https://vimeo.com">Vimeo</a>.</p>

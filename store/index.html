@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% for post in site.categories.items %}
+    <div class="item-box">
+    {% if post.albumLink != " " %}
+        <a href="{{ post.albumLink }}">
+    {% else %}
+        <a href="{{ site.baseurl }}{{ post.url }}">
+    {% endif %}
+            <img src="../images/store/{{ post.image }}"/>
+        </a>
+        <div class="item-info">
+            <div class="item-name">
+                <p>{{ post.title }}</p>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+
+<div class="item-box" id="hidden"></div>
+<div class="item-box" id="hidden"></div>
+<div class="item-box" id="hidden"></div>

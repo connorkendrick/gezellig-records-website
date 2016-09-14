@@ -74,6 +74,19 @@ defaults:
 
   -
     scope:
+      path: "_posts/items"
+      type: "posts"
+    values:
+      categories: "items"
+      published: "true"
+      layout: "item"
+      permalink: "store/:title"
+      title: ""
+      image: ""
+      albumLink: " "
+
+  -
+    scope:
       path: "_posts/articles"
       type: "posts"
     values:
@@ -100,6 +113,7 @@ prose:
     - /artists
     - /assets
     - /news
+    - /store
   metadata:
     bios:
       - name: "published"
@@ -241,6 +255,26 @@ prose:
           element: "text"
           label: "Other"
           placeholder: "Other URL"
+    _posts/items:
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "Gezellig Records Hoodie"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Item Image"
+          placeholder: "file_name.jpg"
+      - name: "albumLink"
+        field:
+          element: "text"
+          label: "Album Page Link"
+          placeholder: "Redirects to this link"
     _posts/articles:
       - name: "published"
         field:

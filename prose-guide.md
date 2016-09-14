@@ -55,6 +55,11 @@ ARTICLES:
 *   Write whatever you want, then go to the meta-data and add an article image
 
 
+ITEMS:
+*   These are the items that will be shown in the Store tab. Create a new file, and make the title at the top just like above.
+*   If you fill in the meta-data option of 'Album Page Link', the item in the Store grid will redirect to that link. This is for if you are selling an album, and want to link directly to the info page.
+
+
 
 
 ABOUT

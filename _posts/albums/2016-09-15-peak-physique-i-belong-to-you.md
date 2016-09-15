@@ -17,8 +17,7 @@ Tracklist:<br>
 4. When The Spell Breaks<br>
 5. Up : Out<br>
 <br>
-<br>
-<center>
+
 **Releases 23 September 2016, pre-order below**<br>
 **$7**
 
@@ -29,4 +28,3 @@ Tracklist:<br>
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
-</center>

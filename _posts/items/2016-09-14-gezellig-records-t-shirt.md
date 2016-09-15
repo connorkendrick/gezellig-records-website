@@ -5,10 +5,10 @@ image: gezelligtee.png
 ---
 First run of Gezellig Records t-shirts. Printed by Knoxville Graphic House. On Gildan 2000.
 
-**PRE-ORDER**
-**$20**
-First run is **SOLD OUT**
-Second run is **TAKING PRE-ORDERS**
+**PRE-ORDER**<br>
+**$20**<br>
+First run is **SOLD OUT**<br>
+Second run is **TAKING PRE-ORDERS**<br>
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">

@@ -1,6 +1,6 @@
 ---
 published: true
-title: Gezellig Records T-Shirt
+title: Gezellig Records T-Shirt (PRE-ORDER)
 image: gezelligtee.png
 ---
 First run of Gezellig Records t-shirts. Printed by Knoxville Graphic House. On Gildan 2000.
@@ -27,4 +27,3 @@ Second run is **TAKING PRE-ORDERS**<br>
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
-

@@ -12,12 +12,14 @@ PEAK PHYSIQUE is here to help you with love and sex. Their goal is to bring peop
 
 I Belong To You is a taste of what PEAK PHYSIQUE has to come. This limited edition EP will offer a sample of their sound before their debut album arrives on November 1, 2016.
 
-Tracklist:
-1. Hell Is Anywhere You're Not
-2. About That Life
-3. Electrosex
-4. When The Spell Breaks
-5. Up : Out
+Tracklist:<br>
+1. Hell Is Anywhere You're Not<br>
+2. About That Life<br>
+3. Electrosex<br>
+4. When The Spell Breaks<br>
+5. Up : Out<br>
+<br>
+<br>
 
 
 **$7**

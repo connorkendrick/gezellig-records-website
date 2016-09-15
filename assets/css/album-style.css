@@ -115,7 +115,8 @@ body {
 }
 
 #album-description {
-    padding-top: 3.5vw;
+    width: 36vw;
+    float: right;
 }
 
 #album-description p {
@@ -123,7 +124,7 @@ body {
     font-family: serif;
     line-height: 1.2vw;
     text-align: left;
-    margin: 0 0.5vw 1vw 3vw;
+    margin: 0 0.5vw 1vw 1vw;
 }
 
 #album-description ul {
@@ -131,7 +132,7 @@ body {
     font-family: serif;
     line-height: 1.2vw;
     text-align: left;
-    margin: 0 0.5vw 1vw 3vw;
+    margin: 0 0.5vw 1vw 2vw;
     list-style-type: none;
 }
 

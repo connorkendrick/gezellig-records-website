@@ -58,7 +58,6 @@ defaults:
       artist: ""
       image: ""
       releaseNo: ""
-      homePageLink: " "
       itunes: " "
       bandcamp: " "
       spotify: " "
@@ -190,11 +189,6 @@ prose:
           element: "text"
           label: "GZR Release Number"
           placeholder: "GZR-001"
-      - name: "homePageLink"
-        field:
-          element: "text"
-          label: "Homepage Link"
-          placeholder: "Download button"
       - name: "itunes"
         field:
           element: "text"

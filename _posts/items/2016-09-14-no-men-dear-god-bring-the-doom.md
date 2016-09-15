@@ -1,7 +1,6 @@
 ---
 published: true
-title: 'No Men - Dear God, Bring The Doom'
+title: 'No Men - Dear God, Bring The Doom (PRE-ORDER)'
 image: nomen-DGBTD.JPG
 albumLink: 'http://gezelligrecords.com/releases/dear-god-bring-the-doom'
 ---
-

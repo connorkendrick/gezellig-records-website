@@ -16,7 +16,6 @@ Second run is **TAKING PRE-ORDERS**<br>
 <input type="hidden" name="hosted_button_id" value="EQYQNB7DRDGK8">
 <table>
 <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
-	<option value="X-Small">X-Small $20.00 USD</option>
 	<option value="Small">Small $20.00 USD</option>
 	<option value="Medium">Medium $20.00 USD</option>
 	<option value="Large">Large $20.00 USD</option>

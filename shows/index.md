@@ -16,6 +16,9 @@ published: true
 ### Peak Physique
 
 10/6 - Columbia, MO @ The Industry 
+
 10/7 - Topeka, KS @ Boobie Trap
+
 10/8 - Rock Island, IL @ Rozz-Tox, supporting DaniELA IEZZI 
+
 10/9 - Evansville, IN @ PG Cafe

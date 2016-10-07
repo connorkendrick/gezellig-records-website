@@ -28,16 +28,17 @@ To summarize, subscribers will receive:
 
 GZR-001 DJ HATRED - *the last enemy that will be abolished is death*  
 GZR-002 Lê Almeida - *Mantra Happening*  
-GZR-005 Peak Physique - *Peak Physique* // coming Fall 2016  
+GZR-005 Peak Physique - *I Belong To You* EP 
 GZR-006 No Men - [*Dear God Bring The Doom*](http://gezelligrecords.com/releases/dear-god-bring-the-doom) // 8 October 2016  
-GZR-007 CRVI - *tbd* // coming Fall 2016  
+GZR-007 Best Friend - Can You Believe It  // 31 October 2016
 
 
 ### Future, Not Yet Scheduled Releases:
 
 DJ HATRED full length  
 Lê Almeida reissue  
-Best Friend full length  
+Peak Physique full length
+Crvi full length
 
 
 ### The Fine Print:

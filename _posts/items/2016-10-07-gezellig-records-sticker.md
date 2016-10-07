@@ -9,7 +9,7 @@ If you place it somewhere really cool, email us and you'll get a surprise!
 
 Printed by Knoxville Graphic House.
 
-****$1****
+**$1**
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">

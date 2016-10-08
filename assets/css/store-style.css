@@ -90,6 +90,11 @@ body {
 .content {
     min-height: 32vw;
     height: auto;
+}
+
+#flex-wrapper {
+    min-height: 32vw;
+    height: auto;
     display: flex;
     display: -webkit-flex;
     display: -ms-flex;
@@ -98,13 +103,22 @@ body {
     justify-content: space-around;
     align-items: center;
     align-content: space-around;
-    padding: 1.4vw;
+    padding: 0 1.4vw;
 }
 
 #hidden {
     height: 0;
     border: none;
     margin: 0 1.4vw;
+}
+
+#shipping-info {
+    text-align: top;
+}
+
+#shipping-info h3 {
+    padding-top: 1vw;
+    font-size: 1vw;
 }
 
 .item-box {

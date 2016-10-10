@@ -1,6 +1,6 @@
 ---
 published: true
-title: Best Friend - Can You Believe It?
+title: Can You Believe It?
 image: canyoubelieveit.png
 artist: Best Friend
 releaseNo: GZR-007

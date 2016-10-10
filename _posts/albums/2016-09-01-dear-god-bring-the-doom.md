@@ -19,7 +19,7 @@ recorded by Brian Fox (Two States Audio)
 mastered by Carl Saff
 cover photography by Greg Stephen Reigh 
 
-**Releases 8 October 2016, pre-order below**
+**$6**
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">

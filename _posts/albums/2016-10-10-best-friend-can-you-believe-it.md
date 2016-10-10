@@ -28,16 +28,16 @@ Muchos Gracias to Ben TO Smith, Austin Zediker, Nicki Avendaño, David McCarvill
 
 Track List:
 
-1.	So What Now?<br>
-2.	Flowers<br>
-3.	Swallow<br>
-4.	Always Is<br>
-5.	Sure<br>
-6.	Genie<br>
-7.	Untitled<br>
-8.	Tesseract<br>
-9.	I Thought It Was Normal<br>
-10.	In Heaven<br>
+1.	So What Now?
+2.	Flowers
+3.	Swallow
+4.	Always Is
+5.	Sure
+6.	Genie
+7.	Untitled
+8.	Tesseract
+9.	I Thought It Was Normal
+10.	In Heaven
 11.	Can You Believe It?
 
 

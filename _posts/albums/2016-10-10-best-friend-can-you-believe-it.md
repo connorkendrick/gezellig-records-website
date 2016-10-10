@@ -10,27 +10,38 @@ Best Friend is the musical project of Nashville’s Peter Fox McCarville. While 
 Dedicated to Meriwether Lewis
 
 Credits:
+
 All SongsWritten and Produced by Peter Fox McCarville
+
 Artwork by Nicki Avendaño
+
 Austin Zediker – Keyboard (on “Untitled”)
+
 Gregory Paul Lancaster II – Bass (on “Flowers”)
+
 Peter Fox McCarville – Bass, Drums/Percussion, Guitars, Keyboards, Voice
+
 Sammy (the dog) – Growling, Collar Jangles
+
 
 Muchos Gracias to Ben TO Smith, Austin Zediker, Nicki Avendaño, David McCarville, Brad King, Anthony Sherriff, T-Cookies, WUTK, all independent radio stations that have played us, and anyone listening to any of these songs.
 
 Track List:
-1.	So What Now?
-2.	Flowers
-3.	Swallow
-4.	Always Is
-5.	Sure
-6.	Genie
-7.	Untitled
-8.	Tesseract
-9.	I Thought It Was Normal
-10.	In Heaven
+
+1.	So What Now?<br>
+2.	Flowers<br>
+3.	Swallow<br>
+4.	Always Is<br>
+5.	Sure<br>
+6.	Genie<br>
+7.	Untitled<br>
+8.	Tesseract<br>
+9.	I Thought It Was Normal<br>
+10.	In Heaven<br>
 11.	Can You Believe It?
+
+
+
 
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">

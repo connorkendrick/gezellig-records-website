@@ -26,29 +26,6 @@ Sammy (the dog) – Growling, Collar Jangles
 
 Muchos Gracias to Ben TO Smith, Austin Zediker, Nicki Avendaño, David McCarville, Brad King, Anthony Sherriff, T-Cookies, WUTK, all independent radio stations that have played us, and anyone listening to any of these songs.
 
-Track List:
-
-1.	So What Now?
-
-2.	Flowers
-
-3.	Swallow
-
-4.	Always Is
-
-5.	Sure
-
-6.	Genie
-
-7.	Untitled
-
-8.	Tesseract
-
-9.	I Thought It Was Normal
-
-10.	In Heaven
-
-11.	Can You Believe It?
 
 
 

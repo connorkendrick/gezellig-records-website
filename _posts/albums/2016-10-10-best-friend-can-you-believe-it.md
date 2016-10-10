@@ -11,7 +11,7 @@ Dedicated to Meriwether Lewis
 
 Credits:
 
-All SongsWritten and Produced by Peter Fox McCarville
+All Songs Written and Produced by Peter Fox McCarville
 
 Artwork by Nicki Avendaño
 

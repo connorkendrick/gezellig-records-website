@@ -3,7 +3,10 @@ published: true
 title: Gezellig Records T-Shirt (PRE-ORDER)
 image: gezelligtee.png
 ---
-First run of Gezellig Records t-shirts. Printed by Knoxville Graphic House. On Gildan 2000.
+Wear it all over town! Buy one for your grandma! Grandmas love record labels. 
+
+Printed by Knoxville Graphic House. On Gildan 2000.
+
 
 **PRE-ORDER**<br>
 **$20**<br>

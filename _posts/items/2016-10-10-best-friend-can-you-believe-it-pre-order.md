@@ -1,6 +1,6 @@
 ---
 published: true
-title: Best Friend - Can You Believe It? (PRE-ORDER)
+title: 'Best Friend - Can You Believe It? '
 albumLink: 'http://gezelligrecords.com/releases/best-friend-can-you-believe-it'
 image: canyoubelieveit.png
 ---

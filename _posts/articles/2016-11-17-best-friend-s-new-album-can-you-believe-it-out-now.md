@@ -12,14 +12,25 @@ You can buy the CD or the limited edition cassette [here](http://gezelligrecords
 Best Friend is the musical project of Nashville’s Peter Fox McCarville. While studying at the University of Tennessee, the group released a string of singles and compilations before moving to Nashville and recording Can You Believe It?, their Gezellig Records debut. Can You Believe It? harmonizes the noisy with the melodic to create a dreamy, visceral pop experience that evokes a host of Best Friend’s influences, from the Shuggie Otis to the Talking Heads to the Smiths.
 
 Tracklist
+
 1. So What Now
+
 2. Flowers
+
 3. Swallows
+
 4. Always Is
+
 5. Sure
+
 6. Genie
+
 7. Untitled
+
 8. Tesseract
+
 9. I Thought It Was Normal
+
 10. In Heaven
+
 11. Can You Believe It?

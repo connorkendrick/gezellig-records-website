@@ -6,11 +6,12 @@ published: true
 
 ### DJ HATRED
 
-10/29 - Knoxville, TN @ Longbranch Saloon - [Information](https://www.facebook.com/events/605701812935281/)
+12/11 - Knoxville, TN @ The Pilot Light w/ Peak Physique & Hudson K - [More Info](https://www.facebook.com/events/1816179308603435)
 
 ### No Men
 
-11/19 - Chicago, IL @ Downstairs - [Tickets](http://www.ticketfly.com/purchase/event/1318297?utm_source=fbTfly&utm_medium=ampOfficialEvent)
+1/6-8 - Chicago, IL @ Ian's Party 2017 w/ The Brokedowns, Ko, Negative Scanner, Meat Wave, & more! - [Tickets](http://www.iansparty.com/weekend-pass/)
 
+### Peak Physique
 
-
+12/11 - Knoxville, TN @ The Pilot Light w/ Hudson K & DJ HATRED - [More Info](https://www.facebook.com/events/1816179308603435)

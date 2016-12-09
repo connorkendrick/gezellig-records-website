@@ -35,7 +35,6 @@ Muchos Gracias to Ben TO Smith, Austin Zediker, Nicki Avendaño, David McCarvill
 <input type="hidden" name="hosted_button_id" value="7QXRD3ZGVU7PC">
 <table>
 <tr><td><input type="hidden" name="on0" value="Version">Version</td></tr><tr><td><select name="os0">
-	<option value="CD">CD $10.00 USD</option>
 	<option value="Super Ltd. Edition Cassette">Super Ltd. Edition Cassette $10.00 USD</option>
 </select> </td></tr>
 </table>

@@ -15,8 +15,13 @@ credits
 released January 20, 2017
 
 Gezellig Records 2017
+
 Curated by Peter McCarville & Ben TO Smith
+
 Mastered by Brad King
+
 Artwork by Elisa Dore
+
 Lettering by Paige Berry
+
 Thanks to Trey Boyte 

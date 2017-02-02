@@ -1,6 +1,6 @@
 ---
 published: true
-title: Crvi - Piše nam se dobro
+title: Piše nam se dobro
 artist: Crvi
 image: crvi.png
 releaseNo: GZR-009

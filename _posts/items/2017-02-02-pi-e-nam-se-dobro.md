@@ -1,6 +1,6 @@
 ---
 published: true
-title: Piše nam se dobro
+title: Crvi - Piše nam se dobro
 image: crvi.png
 albumLink: 'http://gezelligrecords.com/releases/crvi-pi-e-nam-se-dobro'
 ---

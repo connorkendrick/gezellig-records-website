@@ -1,7 +1,7 @@
 ---
 published: true
 title: >-
-  Recap: Crvi album release, Peak Physique Music Video Premiere and ACLU
+  Recap: Crvi album release, Peak Physique music video premiere and ACLU
   compilation in the news
 image: recap.png
 ---

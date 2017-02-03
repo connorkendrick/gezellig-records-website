@@ -27,7 +27,6 @@ The compilation also made headlines! Recap below:
 - [Stereogum](http://www.stereogum.com/1920785/new-mount-eerie-song-appears-on-aclu-benefit-comp-is-there-another-language/music/)
 - [Spin](http://www.spin.com/2017/01/mount-eerie-the-pains-of-being-pure-at-heart-surfer-blood-featured-on-new-protest-compilation/)
 - [Brooklyn Vegan](http://www.brooklynvegan.com/mount-eerie-pains-of-being-pure-at-heart-dean-britta-more-on-aclu-benefit-comp/)
-- 
 - [Tiny Mix Tapes](http://www.tinymixtapes.com/chocolate-grinder/listen-mount-eerie-crow)
 - [Vulture](http://www.vulture.com/2017/01/all-the-songs-protesting-trumps-inauguration.html)
 - [Consequence of Sound](http://consequenceofsound.net/2017/01/mount-eerie-the-pains-of-being-pure-at-heart-contribute-new-music-to-is-there-another-language-benefit-album/)

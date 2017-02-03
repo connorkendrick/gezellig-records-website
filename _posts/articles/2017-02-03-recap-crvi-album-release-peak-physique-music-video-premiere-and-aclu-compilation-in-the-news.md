@@ -7,7 +7,7 @@ image: recap.png
 ---
 It's been a wild ride the past few weeks.
 
-Yesterday, we partnered with Croatian record label [Više Manje Zauvijek](https://visemanjezauvijek.com) to release Crvi's debut album _Piše nam se dobro_. It is available as a pay-what-you-want digital download on both ![]({{site.baseurl}}/https://gezelligrecords.bandcamp.com/album/pi-e-nam-se-dobro) and [Crvi's bandcamp](https://grupacrvi.bandcamp.com/). You can also purchase a limited edition, hand packaged cassette tape via our bandcamp. 
+Yesterday, we partnered with Croatian record label [Više Manje Zauvijek](https://visemanjezauvijek.com) to release Crvi's debut album _Piše nam se dobro_. It is available as a pay-what-you-want digital download on both [our bandcamp](https://gezelligrecords.bandcamp.com/album/pi-e-nam-se-dobro) and [Crvi's bandcamp](https://grupacrvi.bandcamp.com/). You can also purchase a limited edition, hand packaged cassette tape via our bandcamp. 
 
 _Piše nam se dobro_ is like Edvard Munch's “The Scream” tailored for the 21st century – an interpretation for those who may not comprehend or for those who understand the irony of the album title. The musical vision is direct and sincere. _Piše nam se dobro_ precisely dissects the unlikeliness of escape from the undiscovered and unavoidable.
 

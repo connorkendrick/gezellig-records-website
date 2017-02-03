@@ -40,4 +40,4 @@ The compilation also made headlines! Recap below:
 - [Indie For Bunnies (Italy)](http://www.indieforbunnies.com/2017/01/20/un-inedito-di-mount-eerie-appare-in-una-nuova-compilation-benefica/)
 - [Haoneg (Israel)](http://haoneg.com/oneg/18621)
 - [Sopitas (Mexico)](http://www.sopitas.com/712924-the-pains-of-being-pure-at-heart-mas-alzan-la-voz-nueva-musica/)
-- [The Spinoff (New Zealand](http://thespinoff.co.nz/music/27-01-2017/the-album-cycle-new-releases-reviewed-from-new-dawn-sleater-kinney-a-bunch-of-artists-against-trump/)
+- [The Spinoff (New Zealand)](http://thespinoff.co.nz/music/27-01-2017/the-album-cycle-new-releases-reviewed-from-new-dawn-sleater-kinney-a-bunch-of-artists-against-trump/)

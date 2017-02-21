@@ -73,19 +73,6 @@ defaults:
 
   -
     scope:
-      path: "_posts/items"
-      type: "posts"
-    values:
-      categories: "items"
-      published: "true"
-      layout: "item"
-      permalink: "store/:title"
-      title: ""
-      image: ""
-      albumLink: " "
-
-  -
-    scope:
       path: "_posts/articles"
       type: "posts"
     values:
@@ -112,7 +99,6 @@ prose:
     - /artists
     - /assets
     - /news
-    - /store
   metadata:
     bios:
       - name: "published"

@@ -234,8 +234,6 @@ body {
     margin-bottom: 0;
     overflow: hidden;
     max-height: 0;
-    transition: all 0.5s ease-out;
-    -webkit-transition: all 0.5s ease-out;
 }
 
 #preview p {
@@ -259,19 +257,6 @@ body {
     font-size: 0.9vw;
     margin-bottom: 1vw;
     line-height: 1.5vw;
-}
-
-#post-title:hover + #preview {
-    transition: all 0.3s ease-in;
-    -webkit-transition: all 0.3s ease-in;
-
-    /*display: block;*/
-    max-height: 10vw;
-    float: right;
-    width: 31.9vw;
-    margin-top: 0;
-    margin-bottom: 0;
-    overflow: hidden;
 }
 
 #footer {

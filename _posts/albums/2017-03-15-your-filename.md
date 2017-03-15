@@ -1,6 +1,6 @@
 ---
 published: true
-title: ''
+title: a couple
 artist: Peak Physique
 image: acouple.jpg
 releaseNo: GZR-011

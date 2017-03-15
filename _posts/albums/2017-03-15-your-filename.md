@@ -2,7 +2,7 @@
 published: true
 title: ''
 artist: Peak Physique
-image: a couple
+image: acouple.jpg
 releaseNo: GZR-011
 bandcamp: 'https://gezelligrecords.bandcamp.com/album/a-couple'
 ---

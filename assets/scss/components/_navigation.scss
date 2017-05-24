@@ -1,0 +1,24 @@
+@media only screen and (min-width: 769px) {
+    .nav {
+        display: table;
+        border-bottom: 2px solid black;
+    }
+
+    .nav-list {
+        display: table row;
+        overflow: hidden;
+        height: 3em;
+    }
+
+    .nav-item {
+        display: table-cell;
+        text-align: center;
+        padding-top: 1.2em;
+        width: 0.5%;
+    }
+
+    .nav-item a {
+        display: inline;
+        padding: 0;
+    }
+}

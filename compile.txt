@@ -1,0 +1,5 @@
+scss -t compressed input.scss output.css
+
+scss --watch -t compressed input.scss:output.css
+
+could also put --style compressed at the end of the lines

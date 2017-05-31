@@ -5,8 +5,24 @@
     margin: 0.5em;
 }
 
+.social-link-wrapper {
+    float: left;
+    margin: 2em 1em;
+}
+
+.social-media-button {
+    width: 2em;
+    height: 2em;
+    padding: 0.2em;
+}
+
 @media only screen and (min-width: 769px) {
     .nav-button {
         display: none;
+    }
+
+    .social-link-wrapper {
+        float: right;
+        margin: 6em 4em;
     }
 }

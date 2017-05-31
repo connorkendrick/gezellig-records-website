@@ -1,0 +1,41 @@
+footer {
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    z-index: 1;
+    border-top: solid 2px black;
+    overflow: hidden;
+}
+
+.footer-copyright {
+    height: 5em;
+    width: 100%;
+}
+
+.footer-links {
+    width: 100%;
+}
+
+.social-links {
+    width: 100%;
+}
+
+@media only screen and (min-width: 769px) {
+    .footer-copyright {
+        float: left;
+        height: 15em;
+        width: 33.3%;
+    }
+
+    .footer-links {
+        float: left;
+        height: 15em;
+        width: 33.3%;
+    }
+
+    .social-links {
+        float: left;
+        height: 15em;
+        width: 33.3%;
+    }
+}

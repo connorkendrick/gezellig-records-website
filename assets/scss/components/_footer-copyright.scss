@@ -1,6 +1,7 @@
 .footer-copyright-text {
     color: #555;
     float: left;
+    clear: both;
     margin: 0 1em;
     text-align: center;
     vertical-align: middle;
@@ -8,9 +9,23 @@
     font-size: 0.9em;
 }
 
+.footer-copyright-logo {
+    width: 5em;
+    height: auto;
+    margin: 2em 0 0 3em;
+    float: left;
+}
+
 @media only screen and (min-width: 769px) {
     .footer-copyright-text {
         float: none;
-        line-height: 17.5em;
+    }
+
+    .footer-copyright-logo {
+        float: none;
+
+        display: block;
+        margin: auto;
+        margin-top: 2em;
     }
 }

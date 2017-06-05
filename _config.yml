@@ -19,6 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Gezellig Records is a small, independent label based out of Knoxville, Tennessee.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+repository: connorkendrick/gr_remake
 twitter_username: gezelligrecords
 github_username:  connorkendrick
 

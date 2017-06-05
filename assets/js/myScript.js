@@ -33,7 +33,6 @@ $(document).ready(function(){
                 $(".nav-button").attr('src',"{{ site.baseurl }}/assets/img/nav-button-close.svg");
               else
                 $(".nav-button").attr('src',"{{ site.baseurl }}/assets/img/nav-button-open.svg");
-              $("html").scroll(function(e){ e.preventDefault()});
           });
       });
     });

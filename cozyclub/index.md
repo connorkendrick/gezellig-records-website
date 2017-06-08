@@ -1,4 +1,4 @@
 ---
 layout: default
 ---
-<p>About</p>
+Cozy Club

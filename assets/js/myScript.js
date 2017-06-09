@@ -3,9 +3,12 @@
 
 $(document).ready(function(){
 
+    var width;
+
       //function to show if window > 768 and hide if less
       var displayNav = function(){
-        var width= $(window).width();
+        //var width= $(window).width();
+        width = $(window).width();
         if(width<=768){
           $(".nav").hide(0);
         }else{
@@ -18,6 +21,11 @@ $(document).ready(function(){
 
       //subscribe to resize event
       $(window).on('resize',function(evt){
+        if (width == $(window).width()) {
+            return;
+        }
+
+
         $(".nav-button").attr('src',"{{ site.baseurl }}/assets/img/nav-button-open.svg");
         //set navigation state on every resize new
         displayNav();
@@ -33,7 +41,7 @@ $(document).ready(function(){
                 $(".nav-button").attr('src',"{{ site.baseurl }}/assets/img/nav-button-close.svg");
               else
                 $(".nav-button").attr('src',"{{ site.baseurl }}/assets/img/nav-button-open.svg");
-              $("html").scroll(function(e){ e.preventDefault()});
+              //$("html").scroll(function(e){ e.preventDefault()});
           });
       });
     });

@@ -3,4 +3,11 @@ header {
     overflow: auto;
     position: relative;
     z-index: 1;
+    border-bottom: 2px solid black;
+}
+
+@media only screen and (min-width: 769px) {
+    header {
+        border-bottom: 0;
+    }
 }

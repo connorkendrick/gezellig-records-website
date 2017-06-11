@@ -1,0 +1,16 @@
+.about-page-wrapper h3 {
+    font-family: "Drogowskaz";
+    margin: 3em 0 0 3em;
+}
+
+.about-page-wrapper p {
+    margin: 1em 3.5em;
+    line-height: 1.5em;
+    color: #555;
+}
+
+@media only screen and (min-width: 769px) {
+    .about-page-wrapper p {
+        width: 50em;
+    }
+}

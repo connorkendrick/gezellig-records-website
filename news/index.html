@@ -3,26 +3,13 @@ layout: default
 ---
 <div class="news-left-column">
     <ul class="news-articles-list">
-        <li>
-            <a href="#">Post Title Very Long Post Title This Should Wrap Around Well The Title Is Still Going No Sign Of Stopping</a>
-            <br/>
-            <p>Post Date</p>
-        </li>
-        <li>
-            <a href="#">Post Title</a>
-            <br/>
-            <p>Post Date</p>
-        </li>
-        <li>
-            <a href="#">Post Title</a>
-            <br/>
-            <p>Post Date</p>
-        </li>
-        <li>
-            <a href="#">Post Title</a>
-            <br/>
-            <p>Post Date</p>
-        </li>
+        {% for post in site.posts %}
+            <li>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                <br/>
+                <p>{{ post.date | date: '%m/%d/%Y' }}</p>
+            </li>
+        {% endfor %}
     </ul>
 </div>
 

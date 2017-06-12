@@ -25,9 +25,28 @@ github_username:  connorkendrick
 
 # Build settings
 markdown: kramdown
-#theme: minima
+
 #gems:
   #- jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      is_post: true
+
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+      published: "true"
+      permalink: "news/:year/:month/:title"
+      title: ""
+      image: ""

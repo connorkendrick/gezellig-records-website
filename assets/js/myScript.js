@@ -3,11 +3,16 @@
 $(document).ready(function() {
     // Variable to hold device screen width
     var width;
+    // Variable to represent when the site is in mobile mode
+    var is_mobile;
 
-    // Function to show or hide mobile nav bar depending on width variable
+    // Function to show or hide mobile nav bar depending on is_mobile
     var displayNav = function() {
+        // Get current window width
         width = $(window).width();
-        if(width<=768) {
+        // Use header logo class's display attribute to determine if in mobile mode
+        is_mobile = $(".logo").css("display") == "none";
+        if (is_mobile) {
           $(".nav").hide(0);
         }
         else {

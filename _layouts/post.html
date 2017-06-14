@@ -1,14 +1,16 @@
 ---
 layout: default
 ---
-<h2 class="post-title">{{ page.title }}</h2>
-<br/>
-<p class="post-date">{{ page.date | date: '%B %d, %Y' }}</p>
+<div class="post-content">
+    <h2 class="post-title">{{ page.title }}</h2>
+    <br/>
+    <p class="post-date">{{ page.date | date: '%B %d, %Y' }}</p>
 
-<div class="post-image">
-    <img src="{{ site.baseurl | append: '/images/posts/' | append: page.image }}"/>
-</div>
+    <div class="post-image">
+        <img src="{{ site.baseurl | append: '/images/posts/' | append: page.image }}"/>
+    </div>
 
-<div class ="post-body">
-    {{ content }}
+    <div class ="post-body">
+        {{ content }}
+    </div>
 </div>

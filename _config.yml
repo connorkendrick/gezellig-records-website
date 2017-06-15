@@ -35,13 +35,6 @@ exclude:
 defaults:
   -
     scope:
-      path: ""
-      type: "posts"
-    values:
-      is_post: true
-
-  -
-    scope:
       path: "_posts"
       type: "posts"
     values:

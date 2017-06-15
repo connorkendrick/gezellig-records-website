@@ -4,7 +4,7 @@
 }
 
 .news-right-column {
-    margin: 2em 1em;
+    display: none;
 }
 
 .news-articles-list {
@@ -44,6 +44,7 @@
     }
 
     .news-right-column {
+        display: block;
         float: right;
         margin: 1em 1em 1em 0;
         width: 35%;

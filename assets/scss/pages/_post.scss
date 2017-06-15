@@ -1,7 +1,6 @@
 .post-content {
     align-items: center;
-    width: 50em;
-    margin: 5em auto;
+    margin: 3em auto;
     overflow: auto;
 }
 
@@ -21,12 +20,12 @@
 
 .post-image {
     text-align: center;
-    margin: 1em auto;
-    max-height: 25em;
+    margin: 2em auto;
+    max-height: 15em;
 }
 
 .post-image img {
-    max-height: 25em;
+    max-height: 15em;
     max-width: 100%;
 }
 
@@ -34,4 +33,19 @@
     color: #555;
     line-height: 1.5em;
     margin: 1em;
+}
+
+@media only screen and (min-width: 769px) {
+    .post-content {
+        width: 50em;
+        margin: 5em auto;
+    }
+
+    .post-image {
+        max-height: 25em;
+    }
+
+    .post-image img {
+        max-height: 25em;
+    }
 }

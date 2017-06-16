@@ -32,6 +32,11 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+collections:
+  artist_profiles:
+    output: true
+    permalink: pretty
+
 defaults:
   -
     scope:
@@ -43,3 +48,10 @@ defaults:
       permalink: "news/:year/:month/:title"
       title: ""
       image: ""
+
+  -
+    scope:
+      path: ""
+      type: artist_profiles
+    values:
+      layout: profile

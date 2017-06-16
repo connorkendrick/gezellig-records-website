@@ -12,7 +12,7 @@ ul, li{
 
 .grid{
   text-align: justify;
-  font-size: 0.1px;
+  //font-size: 0.1px;
   margin: 0 3% 3% 3%;
 }
 
@@ -57,7 +57,7 @@ ul, li{
 
 /* SINGLE COL */
 
-@media (max-width: 400px){
+@media (max-width: 425px){
     .grid {
         margin: 0 5% 5% 5%;
     }

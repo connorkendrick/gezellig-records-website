@@ -2,20 +2,6 @@
 layout: default
 ---
 <ul class="grid">
-    <!-- <li>
-        <div class="artist-box">
-            <a class="artist-overlay-link" href="#">
-                <img class="artist-image" src="https://scontent.fbna1-2.fna.fbcdn.net/v/t31.0-8/13112921_962871730475016_7434340266044361688_o.jpg?oh=63b5ccd96ac976025a6e4765a53d81cd&oe=59DC6170"/>
-                <div class="artist-name">
-                    <h2>Peak Physique</h2>
-                </div>
-            </a>
-        </div>
-    </li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li> -->
 
     {% for profile in site.artist_profiles %}
         <li>
@@ -32,22 +18,3 @@ layout: default
 
     <li class="placeholder"></li>
 </ul>
-
-
-
-<!-- {% for page in site.pages %}
-    {% if page.layout == 'bio' %}
-        <div class="artist-box">
-            <a href="{{ site.baseurl }}{{ page.url }}">
-                <div class="overlay">
-                    <h2>{{ page.artist }}</h2>
-                </div>
-                <img src="{{ site.baseurl }}/images/artists/{{ page.image }}"/>
-            </a>
-        </div>
-    {% endif %}
-{% endfor %}
-
-<div class="artist-box" id="hidden"></div>
-<div class="artist-box" id="hidden"></div>
-<div class="artist-box" id="hidden"></div> -->

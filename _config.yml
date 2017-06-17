@@ -35,7 +35,7 @@ exclude:
 collections:
   artist_profiles:
     output: true
-    permalink: pretty
+    permalink: "artists/:name"
 
 defaults:
   -
@@ -51,7 +51,16 @@ defaults:
 
   -
     scope:
-      path: ""
+      path: "_artist_profiles"
       type: artist_profiles
     values:
       layout: profile
+      name: ""
+      image: ""
+      website: " "
+      bandcamp: " "
+      soundcloud: " "
+      facebook: " "
+      twitter: " "
+      youtube: " "
+      instagram: " "

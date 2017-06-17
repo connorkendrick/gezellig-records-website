@@ -3,18 +3,30 @@ layout: default
 ---
 <div markdown="1" class="cozyclub-page-wrapper">
 
-<!-- Put 2 spaces after a line to create a new line -->
-<!-- Example -->
+<!-- Put 2 spaces after a line to begin on a new line on the webpage -->
+<!-- Example (editor view) -->
 <!--
-This line has two spaces at the end, making the line under it show as a new line in browser  
-If the line above didn't have these spaces, this line wouldn't show up as a new line in browser
+This line has two spaces at the end, making the line under it show up on a new line in browser  
+If the line above didn't have these spaces, this line would not show up underneath the first line
+-->
+<!-- Example (editor view) -->
+<!--
+This line has two spaces at the end, making the line under it show up on a new line in browser  
+If the line above didn't have these spaces, this line would not show up underneath the first line
 -->
 
-<!-- Put two new lines in between lines to create a space between them -->
-<!-- Example -->
+<!-- Press enter twice in between lines to create a gap between them on the webpage -->
+<!-- Example (editor view) -->
+<!--
+In the browser, there will be a gap in between this line and the next line
+
+
+This is used to separate lines with larger gaps, rather than just a new line
+-->
+
+<!-- Example (browser view) -->
 <!--
 In the browser, there will be a space in between this line and the next line
-
 
 This is used to separate lines with larger gaps, rather than just new lines
 -->

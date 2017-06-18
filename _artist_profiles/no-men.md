@@ -1,5 +1,5 @@
 ---
-name: "No Men"
+artist: "No Men"
 image: "no_men.jpg"
 website: "http://nofuckingmen.com/"
 bandcamp: "http://no-men.bandcamp.com/"

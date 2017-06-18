@@ -1,3 +1,60 @@
 ---
 layout: default
 ---
+<div class="profile-content">
+
+    <h2 class="artist-profile-name">{{ page.artist }}</h2>
+
+    <img class="artist-profile-image" src="{{ site.baseurl | append: '/images/artists/' | append: page.image }}"/>
+
+    <div class="bio-text">{{ content }}</div>
+
+    <div class="artist-profile-divider"></div>
+
+    <!-- <div class="artist-discography-listing">
+        {% for album in site.albums %}
+            {% if album.artist == page.artist %}
+                <p class="artist-discography-album">
+                    {{album.releaseNumber | append: ": " | append: album.title}}
+                </p>
+            {% endif %}
+        {% endfor %}
+    </div> -->
+
+    <div class="artist-profile-divider"></div>
+
+    {% if page.website != " " %}
+        <a class="artist-profile-social-link" href="{{page.website}}">Website</a>
+    {% endif %}
+
+
+    {% if page.bandcamp != " " %}
+        <a class="artist-profile-social-link" href="{{page.bandcamp}}">Bandcamp</a>
+    {% endif %}
+
+
+    {% if page.soundcloud != " " %}
+        <a class="artist-profile-social-link" href="{{page.soundcloud}}">SoundCloud</a>
+    {% endif %}
+
+
+    {% if page.facebook != " " %}
+        <a class="artist-profile-social-link" href="{{page.facebook}}">Facebook</a>
+    {% endif %}
+
+
+    {% if page.twitter != " " %}
+        <a class="artist-profile-social-link" href="{{page.twitter}}">Twitter</a>
+    {% endif %}
+
+
+    {% if page.youtube != " " %}
+        <a class="artist-profile-social-link" href="{{page.youtube}}">YouTube</a>
+    {% endif %}
+
+
+    {% if page.instagram != " " %}
+        <a class="artist-profile-social-link" href="{{page.instagram}}">Instagram</a>
+    {% endif %}
+
+</div>

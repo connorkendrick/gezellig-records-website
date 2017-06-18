@@ -55,7 +55,7 @@ defaults:
       type: artist_profiles
     values:
       layout: profile
-      name: ""
+      artist: ""
       image: ""
       website: " "
       bandcamp: " "

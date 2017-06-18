@@ -23,38 +23,41 @@ layout: default
 
     <div class="artist-profile-divider"></div>
 
-    {% if page.website != " " %}
-        <a class="artist-profile-social-link" href="{{page.website}}">Website</a>
-    {% endif %}
+    <div class="artist-profile-social-links">
+
+        {% if page.website != " " %}
+            <a class="artist-profile-social-link" href="{{page.website}}">Website</a>
+        {% endif %}
 
 
-    {% if page.bandcamp != " " %}
-        <a class="artist-profile-social-link" href="{{page.bandcamp}}">Bandcamp</a>
-    {% endif %}
+        {% if page.bandcamp != " " %}
+            <a class="artist-profile-social-link" href="{{page.bandcamp}}">Bandcamp</a>
+        {% endif %}
 
 
-    {% if page.soundcloud != " " %}
-        <a class="artist-profile-social-link" href="{{page.soundcloud}}">SoundCloud</a>
-    {% endif %}
+        {% if page.soundcloud != " " %}
+            <a class="artist-profile-social-link" href="{{page.soundcloud}}">SoundCloud</a>
+        {% endif %}
 
 
-    {% if page.facebook != " " %}
-        <a class="artist-profile-social-link" href="{{page.facebook}}">Facebook</a>
-    {% endif %}
+        {% if page.facebook != " " %}
+            <a class="artist-profile-social-link" href="{{page.facebook}}">Facebook</a>
+        {% endif %}
 
 
-    {% if page.twitter != " " %}
-        <a class="artist-profile-social-link" href="{{page.twitter}}">Twitter</a>
-    {% endif %}
+        {% if page.twitter != " " %}
+            <a class="artist-profile-social-link" href="{{page.twitter}}">Twitter</a>
+        {% endif %}
 
 
-    {% if page.youtube != " " %}
-        <a class="artist-profile-social-link" href="{{page.youtube}}">YouTube</a>
-    {% endif %}
+        {% if page.youtube != " " %}
+            <a class="artist-profile-social-link" href="{{page.youtube}}">YouTube</a>
+        {% endif %}
 
 
-    {% if page.instagram != " " %}
-        <a class="artist-profile-social-link" href="{{page.instagram}}">Instagram</a>
-    {% endif %}
+        {% if page.instagram != " " %}
+            <a class="artist-profile-social-link" href="{{page.instagram}}">Instagram</a>
+        {% endif %}
+    </div>
 
 </div>

@@ -21,43 +21,71 @@ layout: default
         {% endfor %}
     </div> -->
 
+    <div class="artist-discography-listing">
+        <p class="artist-discography-album">
+            GZR-011: a couple
+        </p>
+        <p class="artist-discography-album">
+            GZR-005: I Belong To You
+        </p>
+        <p class="artist-discography-album">
+            GZR-004: State of Fire / Lovefool
+        </p>
+    </div>
+
+
+
+
     <div class="artist-profile-divider"></div>
 
-    <div class="artist-profile-social-links">
-
+    <ul class="artist-profile-social-links">
         {% if page.website != " " %}
-            <a class="artist-profile-social-link" href="{{page.website}}">Website</a>
+            <li>
+                <a class="artist-profile-social-link" href="{{page.website}}">Website</a>
+            </li>
         {% endif %}
 
 
         {% if page.bandcamp != " " %}
-            <a class="artist-profile-social-link" href="{{page.bandcamp}}">Bandcamp</a>
+            <li>
+                <a class="artist-profile-social-link" href="{{page.bandcamp}}">Bandcamp</a>
+            </li>
         {% endif %}
 
 
         {% if page.soundcloud != " " %}
-            <a class="artist-profile-social-link" href="{{page.soundcloud}}">SoundCloud</a>
+            <li>
+                <a class="artist-profile-social-link" href="{{page.soundcloud}}">SoundCloud</a>
+            </li>
         {% endif %}
 
 
         {% if page.facebook != " " %}
-            <a class="artist-profile-social-link" href="{{page.facebook}}">Facebook</a>
+            <li>
+                <a class="artist-profile-social-link" href="{{page.facebook}}">Facebook</a>
+            </li>
         {% endif %}
 
 
         {% if page.twitter != " " %}
-            <a class="artist-profile-social-link" href="{{page.twitter}}">Twitter</a>
+            <li>
+                <a class="artist-profile-social-link" href="{{page.twitter}}">Twitter</a>
+            </li>
         {% endif %}
 
 
         {% if page.youtube != " " %}
-            <a class="artist-profile-social-link" href="{{page.youtube}}">YouTube</a>
+            <li>
+                <a class="artist-profile-social-link" href="{{page.youtube}}">YouTube</a>
+            </li>
         {% endif %}
 
 
         {% if page.instagram != " " %}
-            <a class="artist-profile-social-link" href="{{page.instagram}}">Instagram</a>
+            <li>
+                <a class="artist-profile-social-link" href="{{page.instagram}}">Instagram</a>
+            </li>
         {% endif %}
-    </div>
+    </ul>
 
 </div>

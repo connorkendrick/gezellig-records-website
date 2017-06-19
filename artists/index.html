@@ -1,20 +1,22 @@
 ---
 layout: default
 ---
-<ul class="grid">
+<div class="content-grid-wrapper">
+    <ul class="grid">
 
-    {% for profile in site.artist_profiles %}
-        <li>
-            <div class="artist-box">
-                <a class="artist-overlay-link" href="{{ site.baseurl }}{{ profile.url }}">
-                    <img class="artist-image" src="{{ site.baseurl }}/images/artists/{{ profile.image }}"/>
-                    <div class="artist-name">
-                        <h2>{{ profile.artist }}</h2>
-                    </div>
-                </a>
-            </div>
-        </li>
-    {% endfor %}
+        {% for profile in site.artist_profiles %}
+            <li>
+                <div class="artist-box">
+                    <a class="artist-overlay-link" href="{{ site.baseurl }}{{ profile.url }}">
+                        <img class="artist-image" src="{{ site.baseurl }}/images/artists/{{ profile.image }}"/>
+                        <div class="artist-name">
+                            <h2>{{ profile.artist }}</h2>
+                        </div>
+                    </a>
+                </div>
+            </li>
+        {% endfor %}
 
-    <li class="placeholder"></li>
-</ul>
+        <li class="placeholder"></li>
+    </ul>
+</div>

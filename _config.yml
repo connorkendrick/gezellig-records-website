@@ -33,9 +33,14 @@ exclude:
   - Gemfile.lock
 
 collections:
-  artist_profiles:
-    output: true
-    permalink: "artists/:name"
+  -
+    artist_profiles:
+      output: true
+      permalink: "artists/:name"
+  -
+    album_pages:
+      output: true
+      permalink: "releases/:title"
 
 defaults:
   -
@@ -52,9 +57,9 @@ defaults:
   -
     scope:
       path: "_artist_profiles"
-      type: artist_profiles
+      type: "artist_profiles"
     values:
-      layout: profile
+      layout: "profile"
       artist: ""
       image: ""
       website: " "
@@ -64,3 +69,22 @@ defaults:
       twitter: " "
       youtube: " "
       instagram: " "
+
+  -
+    scope:
+      path: "_album_pages"
+      type: "album_pages"
+    values:
+      layout: "album"
+      title: ""
+      artist: ""
+      image: ""
+      GZR: ""
+      itunes: " "
+      bandcamp: " "
+      googlePlay: " "
+      amazon: " "
+      soundcloud: " "
+      spotify: " "
+      youtube: " "
+      vimeo: " "

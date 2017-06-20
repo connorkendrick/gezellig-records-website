@@ -33,12 +33,10 @@ exclude:
   - Gemfile.lock
 
 collections:
-  -
     artist_profiles:
       output: true
       permalink: "artists/:name"
-  -
-    album_pages:
+    albums:
       output: true
       permalink: "releases/:title"
 
@@ -72,8 +70,8 @@ defaults:
 
   -
     scope:
-      path: "_album_pages"
-      type: "album_pages"
+      path: "_albums"
+      type: "albums"
     values:
       layout: "album"
       title: ""

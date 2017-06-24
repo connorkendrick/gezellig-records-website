@@ -1,0 +1,69 @@
+// Inspired by patrickkunka on codepen.io
+
+/* -- DEFAULTS -- */
+
+.content-grid-wrapper ul, .content-grid-wrapper li{
+  padding: 0;
+  list-style-type: none;
+}
+
+/* -- FLUID GRID STYLES -- */
+
+.grid{
+  text-align: justify;
+  //font-size: 0.1px;
+  margin: 0 3% 3% 3%;
+}
+
+.grid li{
+    position: relative;
+
+  display: inline-block;
+  background: #eee;
+  width: 31%;
+  padding-top: 31%; /* Used instead of height to give elements fluid, width-based height */
+  margin-top: 3%;
+}
+
+.grid:after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+  border-top: 10px dashed #922d8d; /* Border added to make element visible for demonstration purposes */
+}
+
+.grid .placeholder{
+  padding: 0;
+  border-top: 10px solid #922d8d; /* Border added to make element visible for demonstration purposes */
+}
+
+/* -- MEDIA QUERIES DEFINING RESPONSIVE LAYOUTS -- */
+
+/* 2 COL */
+
+//@media (max-width: 600px){
+@media (max-width: 768px){
+    .grid {
+        margin: 0 4% 4% 4%;
+    }
+
+  .grid li{
+    width: 48%;
+    padding-top: 48%;
+    margin-top: 4%;
+  }
+}
+
+/* SINGLE COL */
+
+@media (max-width: 425px){
+    .grid {
+        margin: 0 5% 5% 5%;
+    }
+
+  .grid li{
+    width: 100%;
+    padding-top: 100%;
+    margin-top: 5%;
+  }
+}

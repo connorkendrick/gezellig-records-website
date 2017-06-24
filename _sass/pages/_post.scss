@@ -1,0 +1,51 @@
+.post-content {
+    align-items: center;
+    margin: 3em auto;
+    overflow: auto;
+}
+
+.post-title {
+    text-align: center;
+    font-family: "Drogowskaz";
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+
+.post-date {
+    font-family: serif;
+    color: #555;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.post-image {
+    text-align: center;
+    margin: 2em auto;
+    max-height: 15em;
+}
+
+.post-image img {
+    max-height: 15em;
+    max-width: 100%;
+}
+
+.post-body {
+    color: #555;
+    line-height: 1.5em;
+    margin: 1em;
+}
+
+@media only screen and (min-width: 769px) {
+    .post-content {
+        width: 50em;
+        margin: 5em auto;
+    }
+
+    .post-image {
+        max-height: 25em;
+    }
+
+    .post-image img {
+        max-height: 25em;
+    }
+}

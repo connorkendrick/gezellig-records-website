@@ -1,0 +1,70 @@
+.logo {
+    display: none;
+}
+
+.header-title {
+    font-family: "Drogowskaz";
+    display: inline-block;
+    float: left;
+    margin: 0.3em 0 0.3em 0.3em;
+    font-size: 1.7em;
+}
+
+.header-overlay {
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.header-overlay-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: 0.0;
+}
+
+@media only screen and (min-width: 769px) {
+    .logo {
+        display: inline-block;
+        float: left;
+        margin: 2em 0 0 3em;
+    }
+
+    .header-overlay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .header-overlay-link {
+        display: block;
+        height: 100%;
+        width: 100%;
+        opacity: 0.0;
+    }
+
+    .header-title {
+        float: right;
+        font-size: 6em;
+        font-weight: normal; // Placed here to fix bold issue... find a better fix
+        margin: 0.5em 0.8em 0.5em auto;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1070px) {
+    .header-title {
+        font-size: 5em;
+        float: right;
+        margin-top: 0.8em;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 930px) {
+    .header-title {
+        font-size: 4em;
+        float: right;
+        margin-top: 1.2em;
+    }
+}

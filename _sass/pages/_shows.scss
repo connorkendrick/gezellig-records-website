@@ -1,0 +1,38 @@
+.shows-page-wrapper h2 {
+    font-family: "Drogowskaz";
+    margin: 1.5em 1em;
+}
+
+.shows-page-wrapper h3 {
+    font-family: "Drogowskaz";
+    margin: 1.5em 0 0.5em 1.3em;
+}
+
+.shows-page-wrapper p {
+    margin: 0 1.5em;
+    line-height: 2em;
+    color: #555;
+}
+
+.shows-page-wrapper a {
+    text-decoration: none;
+    color: red;
+}
+
+.shows-page-wrapper a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 769px) {
+    .shows-page-wrapper h2 {
+        margin: 2em 0 2em 2.3em;
+    }
+
+    .shows-page-wrapper h3 {
+        margin: 1.5em 0 0.5em 3em;
+    }
+
+    .shows-page-wrapper p {
+        margin: 0 3.5em;
+    }
+}

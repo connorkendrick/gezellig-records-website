@@ -86,6 +86,7 @@ defaults:
       bandcamp: " "
       googleplay: " "
       amazon: " "
+      paypal: " "
       soundcloud: " "
       spotify: " "
       youtube: " "

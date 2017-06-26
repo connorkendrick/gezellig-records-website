@@ -11,16 +11,16 @@
 
 .grid {
     text-align: justify;
-    margin: 0 3% 3% 3%;
+    margin: 0 5% 5% 5%;
 }
 
 .grid li {
     position: relative;
     display: inline-block;
     background: #eee;
-    width: 31%;
-    padding-top: 31%; /* Used instead of height to give elements fluid, width-based height */
-    margin-top: 3%;
+    width: 100%;
+    padding-top: 100%; /* Used instead of height to give elements fluid, width-based height */
+    margin-top: 5%;
 }
 
 .grid:after {
@@ -39,29 +39,28 @@
 
 /* 2 COL */
 
-//@media (max-width: 600px){
-@media (max-width: 768px) {
+@media only screen and (min-width: 425px) {
     .grid {
         margin: 0 4% 4% 4%;
     }
 
-  .grid li {
-    width: 48%;
-    padding-top: 48%;
-    margin-top: 4%;
-  }
+    .grid li {
+        width: 48%;
+        padding-top: 48%;
+        margin-top: 4%;
+    }
 }
 
-/* SINGLE COL */
+/* 3 COL */
 
-@media (max-width: 425px) {
+@media only screen and (min-width: 768px) {
     .grid {
-        margin: 0 5% 5% 5%;
+        margin: 0 3% 3% 3%;
     }
 
-  .grid li {
-    width: 100%;
-    padding-top: 100%;
-    margin-top: 5%;
-  }
+    .grid li {
+        width: 31%;
+        padding-top: 31%;
+        margin-top: 3%;
+    }
 }

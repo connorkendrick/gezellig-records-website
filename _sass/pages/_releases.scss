@@ -16,7 +16,7 @@
 
 .releases-page-box-image-section {
     width: 100%;
-    height: 70%;
+    height: 65%;
 }
 
 .releases-page-box-image {
@@ -28,31 +28,47 @@
     border-top: 2px solid black;
     color: #555;
     width: 100%;
-    height: 30%;
+    height: 35%;
 }
 
 .releases-page-box-title, .releases-page-box-artist, .releases-page-box-number {
     width: 100%;
-    height: 33.3%;
+    overflow: hidden;
 }
 
 .releases-page-box-title p, .releases-page-box-artist h3, .releases-page-box-number p {
     margin: 0;
-    padding: 0.5em;
+    text-align: left;
+}
+
+.releases-page-box-title {
+    height: 43.6%;
 }
 
 .releases-page-box-title p {
     font-style: italic;
     font-family: serif;
+    line-height: 1em;
+    padding: 0.5em 0.5em 0 0.5em;
+    // use variables for these
 }
 
 .releases-page-box-artist {
     display: table;
+    height: 33.3%;
 }
 
 .releases-page-box-artist h3 {
     display: table-cell;
-    vertical-align: bottom;
+    vertical-align: middle;
+    font-family: "Drogowskaz";
+    padding: 0 0.5em;
+    color: black;
+    font-size: 1.2em;
+}
+
+.releases-page-box-number {
+    height: 20%;
 }
 
 .releases-page-box-number p {
@@ -60,20 +76,21 @@
     bottom: 0;
     font-size: 0.7em;
     font-weight: bold;
+    padding: 0 0.5em 0.5em 0.5em;
 }
 
 .releases-page-grid-wrapper li {
-    padding-top: 145%;
+    padding-top: 150%;
 }
 
-@media only screen and (min-width: 425px) {
+@media only screen and (min-width: 490px) {
     .releases-page-grid-wrapper li {
-        padding-top: 70%;
+        padding-top: 75%;
     }
 }
 
 @media only screen and (min-width: 768px) {
     .releases-page-grid-wrapper li {
-        padding-top: 45%;
+        padding-top: 50%;
     }
 }

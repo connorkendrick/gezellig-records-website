@@ -11,30 +11,15 @@ layout: default
 
     <div class="artist-profile-divider"></div>
 
-    <!-- <div class="artist-discography-listing">
+    <div class="artist-discography-listing">
         {% for album in site.albums %}
             {% if album.artist == page.artist %}
-                <p class="artist-discography-album">
-                    {{album.releaseNumber | append: ": " | append: album.title}}
-                </p>
+                <a class="artist-discography-album" href="{{site.baseurl}}{{album.url}}">
+                    GZR-{{album.GZR | append: ": " | append: album.title}}
+                </a>
             {% endif %}
         {% endfor %}
-    </div> -->
-
-    <div class="artist-discography-listing">
-        <p class="artist-discography-album">
-            GZR-011: a couple
-        </p>
-        <p class="artist-discography-album">
-            GZR-005: I Belong To You
-        </p>
-        <p class="artist-discography-album">
-            GZR-004: State of Fire / Lovefool
-        </p>
     </div>
-
-
-
 
     <div class="artist-profile-divider"></div>
 

@@ -1,23 +1,23 @@
-.profile-content {
+.profile-page-content {
     margin: 1.5em;
 }
 
-.artist-profile-name {
+.profile-page-name {
     font-family: "Drogowskaz";
     font-size: 1.3em;
 }
 
-.artist-profile-image {
+.profile-page-image {
     max-width: 100%;
 }
 
-.bio-text {
+.profile-page-text {
     width: 100%;
     line-height: 1.5em;
     color: #555;
 }
 
-.artist-profile-divider {
+.profile-page-divider {
     float: left;
     clear: both;
     border-bottom: 1px solid #555;
@@ -34,7 +34,7 @@
     margin: 1.5em 0 1.5em 0;
 }
 
-.artist-profile-social-links {
+.profile-page-social-links {
     float: left;
     clear: both;
     margin: 0;
@@ -42,46 +42,42 @@
     list-style-type: none;
 }
 
-.artist-profile-social-links li {
+.profile-page-social-links li {
     margin: 1.5em 0;
 }
 
-.artist-profile-social-link {
-
-}
-
 @media only screen and (min-width: 425px) {
-    .profile-content {
+    .profile-page-content {
         margin: 3em;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .artist-profile-image {
+    .profile-page-image {
         width: 75%;
     }
 
-    .bio-text {
+    .profile-page-text {
         width: 75%;
     }
 
-    .artist-profile-divider {
+    .profile-page-divider {
         max-width: 75%;
     }
 }
 
 @media only screen and (min-width: 1024px) {
-    .artist-profile-image {
+    .profile-page-image {
         width: 50%;
         float: left;
         margin: 0 2em 1em 0;
     }
 
-    .bio-text {
+    .profile-page-text {
         width: 100%;
     }
 
-    .artist-profile-divider {
+    .profile-page-divider {
         max-width: 50%;
     }
 }

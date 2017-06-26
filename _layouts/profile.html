@@ -1,21 +1,21 @@
 ---
 layout: default
 ---
-<div class="profile-content">
+<div class="profile-page-content">
 
-    <h2 class="artist-profile-name">{{ page.artist }}</h2>
+    <h2 class="profile-page-name">{{ page.artist }}</h2>
 
-    <img class="artist-profile-image" src="{{ site.baseurl | append: '/images/artists/' | append: page.image }}"/>
+    <img class="profile-page-image" src="{{ site.baseurl | append: '/images/artists/' | append: page.image }}"/>
 
-    <div class="bio-text">{{ content }}</div>
+    <div class="profile-page-text">{{ content }}</div>
 
-    <div class="artist-profile-divider"></div>
+    <div class="profile-page-divider"></div>
 
     <div class="profile-page-album-list">
         {% for album in site.albums %}
             {% if album.artist == page.artist %}
                 <div class="profile-page-album">
-                    <a href="{{site.baseurl}}{{album.url}}">
+                    <a href="{ {site.baseurl }}{{ album.url }}">
                         GZR-{{album.GZR | append: ": " | append: album.title}}
                     </a>
                 </div>
@@ -23,54 +23,54 @@ layout: default
         {% endfor %}
     </div>
 
-    <div class="artist-profile-divider"></div>
+    <div class="profile-page-divider"></div>
 
-    <ul class="artist-profile-social-links">
+    <ul class="profile-page-social-links">
         {% if page.website != " " %}
             <li>
-                <a class="artist-profile-social-link" href="{{page.website}}">Website</a>
+                <a class="profile-page-social-link" href="{{ page.website }}">Website</a>
             </li>
         {% endif %}
 
 
         {% if page.bandcamp != " " %}
             <li>
-                <a class="artist-profile-social-link" href="{{page.bandcamp}}">Bandcamp</a>
+                <a class="profile-page-social-link" href="{{ page.bandcamp }}">Bandcamp</a>
             </li>
         {% endif %}
 
 
         {% if page.soundcloud != " " %}
             <li>
-                <a class="artist-profile-social-link" href="{{page.soundcloud}}">SoundCloud</a>
+                <a class="profile-page-social-link" href="{{ page.soundcloud }}">SoundCloud</a>
             </li>
         {% endif %}
 
 
         {% if page.facebook != " " %}
             <li>
-                <a class="artist-profile-social-link" href="{{page.facebook}}">Facebook</a>
+                <a class="profile-page-social-link" href="{{ page.facebook }}">Facebook</a>
             </li>
         {% endif %}
 
 
         {% if page.twitter != " " %}
             <li>
-                <a class="artist-profile-social-link" href="{{page.twitter}}">Twitter</a>
+                <a class="profile-page-social-link" href="{{ page.twitter }}">Twitter</a>
             </li>
         {% endif %}
 
 
         {% if page.youtube != " " %}
             <li>
-                <a class="artist-profile-social-link" href="{{page.youtube}}">YouTube</a>
+                <a class="artist-profile-social-link" href="{{ page.youtube }}">YouTube</a>
             </li>
         {% endif %}
 
 
         {% if page.instagram != " " %}
             <li>
-                <a class="artist-profile-social-link" href="{{page.instagram}}">Instagram</a>
+                <a class="artist-profile-social-link" href="{{ page.instagram }}">Instagram</a>
             </li>
         {% endif %}
     </ul>

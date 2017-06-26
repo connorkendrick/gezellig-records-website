@@ -27,11 +27,40 @@
 .releases-page-box-info-section {
     border-top: 2px solid black;
     color: #555;
+    width: 100%;
+    height: 30%;
 }
 
+.releases-page-box-title, .releases-page-box-artist, .releases-page-box-number {
+    width: 100%;
+    height: 33.3%;
+}
 
+.releases-page-box-title p, .releases-page-box-artist h3, .releases-page-box-number p {
+    margin: 0;
+    padding: 0.5em;
+}
 
+.releases-page-box-title p {
+    font-style: italic;
+    font-family: serif;
+}
 
+.releases-page-box-artist {
+    display: table;
+}
+
+.releases-page-box-artist h3 {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.releases-page-box-number p {
+    position: absolute;
+    bottom: 0;
+    font-size: 0.7em;
+    font-weight: bold;
+}
 
 .releases-page-grid-wrapper li {
     padding-top: 45%;

@@ -3,32 +3,31 @@ layout: default
 ---
 <div class="releases-page-grid-wrapper">
     <ul class="grid">
-        <li>
-            <div class="releases-page-box">
-                <a class="releases-page-overlay-link" href="#">
-                    <div class="releases-page-box-image-section">
-                        <img class="releases-page-box-image" src="{{ site.baserul }}/images/albums/DGBTD.jpg"/>
-                    </div>
 
-                    <div class="releases-page-box-info-section">
-                        <div class="releases-page-box-title">
-                            <p>Is There Another Language? : an ACLU benefit album</p>
+        {% for album in site.albums %}
+            <li>
+                <div class="releases-page-box">
+                    <a class="releases-page-overlay-link" href="{{ site.baseurl }}{{ album.url }}">
+                        <div class="releases-page-box-image-section">
+                            <img class="releases-page-box-image" src="{{ site.baserul }}/images/albums/{{ album.image }}"/>
                         </div>
-                        <div class="releases-page-box-artist">
-                            <h3>Various Artists</h3>
+
+                        <div class="releases-page-box-info-section">
+                            <div class="releases-page-box-title">
+                                <p>{{ album.title }}</p>
+                            </div>
+                            <div class="releases-page-box-artist">
+                                <h3>{{ album.artist }}</h3>
+                            </div>
+                            <div class="releases-page-box-number">
+                                <p>GZR-{{ album.GZR }}</p>
+                            </div>
                         </div>
-                        <div class="releases-page-box-number">
-                            <p>GZR-19967</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+                    </a>
+                </div>
+            </li>
+        {% endfor %}
+
         <li class="placeholder"></li>
     </ul>
 </div>

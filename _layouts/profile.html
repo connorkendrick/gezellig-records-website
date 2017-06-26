@@ -11,12 +11,14 @@ layout: default
 
     <div class="artist-profile-divider"></div>
 
-    <div class="artist-discography-listing">
+    <div class="profile-page-album-list">
         {% for album in site.albums %}
             {% if album.artist == page.artist %}
-                <a class="artist-discography-album" href="{{site.baseurl}}{{album.url}}">
-                    GZR-{{album.GZR | append: ": " | append: album.title}}
-                </a>
+                <div class="profile-page-album">
+                    <a href="{{site.baseurl}}{{album.url}}">
+                        GZR-{{album.GZR | append: ": " | append: album.title}}
+                    </a>
+                </div>
             {% endif %}
         {% endfor %}
     </div>

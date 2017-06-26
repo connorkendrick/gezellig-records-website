@@ -1,3 +1,75 @@
 ---
 layout: default
 ---
+<div class="album-page-content">
+
+    <h2 class="album-page-title">{{ page.title }}</h2>
+
+    <img class="album-page-image" src="{{ site.baseurl | append: '/images/albums/' | append: page.image }}"/>
+
+    <div class="album-page-text">{{ content }}</div>
+
+    <div class="album-page-divider"></div>
+
+    <div class="album-page-info-listing">
+        <div class="album-page-info-item">
+            <p>Artist: {{ page.artist }}</p>
+        </div>
+        <div class ="album-page-info-item">
+            <p>Release Number: GZR-{{ page.GZR }}</p>
+        </div>
+    </div>
+
+    <div class="album-page-divider"></div>
+
+    <ul class="album-page-social-links">
+        {% if page.itunes != " " %}
+            <li>
+                <a class="album-page-social-link" href="{{ page.itunes }}">iTunes</a>
+            </li>
+        {% endif %}
+
+        {% if page.bandcamp != " " %}
+            <li>
+                <a class="album-page-social-link" href="{{ page.bandcamp }}">Bandcamp</a>
+            </li>
+        {% endif %}
+
+        {% if page.googleplay != " " %}
+            <li>
+                <a class="album-page-social-link" href="{{ page.googleplay }}">Google Play</a>
+            </li>
+        {% endif %}
+
+        {% if page.amazon != " " %}
+            <li>
+                <a class="album-page-social-link" href="{{ page.amazon }}">Amazon</a>
+            </li>
+        {% endif %}
+
+        {% if page.soundcloud != " " %}
+            <li>
+                <a class="album-page-social-link" href="{{ page.soundcloud }}">SoundCloud</a>
+            </li>
+        {% endif %}
+
+        {% if page.spotify != " " %}
+            <li>
+                <a class="album-page-social-link" href="{{ page.spotify }}">Spotify</a>
+            </li>
+        {% endif %}
+
+        {% if page.youtube != " " %}
+            <li>
+                <a class="album-page-social-link" href="{{ page.youtube }}">YouTube</a>
+            </li>
+        {% endif %}
+
+        {% if page.vimeo != " " %}
+            <li>
+                <a class="album-page-social-link" href="{{ page.vimeo }}">Vimeo</a>
+            </li>
+        {% endif %}
+    </ul>
+
+</div>

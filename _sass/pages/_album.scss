@@ -1,40 +1,39 @@
-.profile-content {
+.album-page-content {
     margin: 1.5em;
 }
 
-.artist-profile-name {
+.album-page-title {
     font-family: "Drogowskaz";
     font-size: 1.3em;
 }
 
-.artist-profile-image {
+.album-page-image {
     max-width: 100%;
 }
 
-.bio-text {
+.album-page-text {
     width: 100%;
     line-height: 1.5em;
     color: #555;
 }
 
-.artist-profile-divider {
+.album-page-divider {
     float: left;
     clear: both;
     border-bottom: 1px solid #555;
     width: 100%;
 }
 
-.profile-page-album-list {
+.album-page-info-listing {
     float: left;
     clear: both;
 }
 
-.profile-page-album {
-    display: inline-block;
+.album-page-info-item {
     margin: 1.5em 0 1.5em 0;
 }
 
-.artist-profile-social-links {
+.album-page-social-links {
     float: left;
     clear: both;
     margin: 0;
@@ -42,46 +41,42 @@
     list-style-type: none;
 }
 
-.artist-profile-social-links li {
+.album-page-social-links li {
     margin: 1.5em 0;
 }
 
-.artist-profile-social-link {
-
-}
-
 @media only screen and (min-width: 425px) {
-    .profile-content {
+    .album-page-content {
         margin: 3em;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .artist-profile-image {
+    .album-page-image {
         width: 75%;
     }
 
-    .bio-text {
+    .album-page-text {
         width: 75%;
     }
 
-    .artist-profile-divider {
+    .album-page-divider {
         max-width: 75%;
     }
 }
 
 @media only screen and (min-width: 1024px) {
-    .artist-profile-image {
+    .album-page-image {
         width: 50%;
         float: left;
         margin: 0 2em 1em 0;
     }
 
-    .bio-text {
+    .album-page-text {
         width: 100%;
     }
 
-    .artist-profile-divider {
+    .album-page-divider {
         max-width: 50%;
     }
 }

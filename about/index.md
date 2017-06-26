@@ -1,8 +1,6 @@
 ---
-layout: default
+layout: about_page
 ---
-<div markdown="1" class="about-page-wrapper">
-
 <!-- Put 2 spaces after a line to create a new line -->
 <!-- Example -->
 <!--
@@ -38,5 +36,3 @@ As much as we love hearing new music, we don't have the staff, bandwidth, or tim
 ### Staff
 
 Ben T O Smith // Founder  -  gezelligrecords@gmail.com
-
-</div>

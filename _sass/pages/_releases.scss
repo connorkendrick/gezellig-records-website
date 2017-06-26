@@ -1,4 +1,4 @@
-.release-box {
+.releases-page-box {
     overflow: hidden;
     position: absolute;
     top: 0;
@@ -7,24 +7,24 @@
     border: 2px solid black;
 }
 
-.release-overlay-link {
+.releases-page-overlay-link {
     display: block;
     height: 100%;
     width: 100%;
     text-decoration: none;
 }
 
-.release-box-image-section {
+.releases-page-box-image-section {
     width: 100%;
     height: 70%;
 }
 
-.release-box-image {
+.releases-page-box-image {
     height: 100%;
     width: 100%;
 }
 
-.release-box-info-section {
+.releases-page-box-info-section {
     border-top: 2px solid black;
     color: #555;
 }
@@ -33,18 +33,18 @@
 
 
 
-.temp-wrapper .content-grid-wrapper li {
+.releases-page-grid-wrapper li {
     padding-top: 45%;
 }
 
 @media (max-width: 768px) {
-    .temp-wrapper .content-grid-wrapper li {
+    .releases-page-grid-wrapper li {
         padding-top: 70%;
     }
 }
 
 @media (max-width: 425px) {
-    .temp-wrapper .content-grid-wrapper li {
+    .releases-page-grid-wrapper li {
         padding-top: 145%;
     }
 }

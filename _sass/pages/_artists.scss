@@ -1,4 +1,4 @@
-.artist-box {
+.artists-page-box {
     overflow: hidden;
     position: absolute;
     top: 0;
@@ -7,18 +7,18 @@
     border: 2px solid black;
 }
 
-.artist-overlay-link {
+.artists-page-overlay-link {
     display: block;
     height: 100%;
     width: 100%;
 }
 
-.artist-image {
+.artists-page-artist-image {
     height: 100%;
     min-width: 100%;
 }
 
-.artist-name {
+.artists-page-artist-name {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -28,7 +28,7 @@
     text-align: center;
 }
 
-.artist-name h2 {
+.artists-page-artist-name h2 {
     display: table-cell;
     vertical-align: middle;
     font-family: "Drogowskaz";

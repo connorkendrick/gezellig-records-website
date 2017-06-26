@@ -1,8 +1,6 @@
 ---
-layout: default
+layout: shows_page
 ---
-<div markdown="1" class="shows-page-wrapper">
-
 <!-- Put 2 spaces after a line to create a new line -->
 <!-- Example -->
 <!--
@@ -29,5 +27,3 @@ This is used to separate lines with larger gaps, rather than just new lines
 6/6/2017 - Knoxville, TN @ The Pilot Light - [More Info](#)  
 6/6/2017 - Knoxville, TN @ The Pilot Light - [More Info](#)  
 6/6/2017 - Knoxville, TN @ The Pilot Light - [More Info](#)  
-
-</div>

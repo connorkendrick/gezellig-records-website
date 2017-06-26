@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<div class="news-left-column">
-    <ul class="news-articles-list">
+<div class="news-page-left-column">
+    <ul class="news-page-articles-list">
         {% for post in site.posts %}
             <li>
                 <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -13,7 +13,7 @@ layout: default
     </ul>
 </div>
 
-<div class="news-right-column">
+<div class="news-page-right-column">
     <a class="twitter-timeline" href="https://twitter.com/GezelligRecords"></a>
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>

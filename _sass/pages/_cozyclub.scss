@@ -1,55 +1,36 @@
-.cozyclub-page-wrapper h2 {
+.cozyclub-page-wrapper {
+    margin: 0 2em 2em 2em;
+}
+
+.cozyclub-page-wrapper h1, .cozyclub-page-wrapper h2, .cozyclub-page-wrapper h3, .cozyclub-page-wrapper h4, .cozyclub-page-wrapper h5, .cozyclub-page-wrapper h6 {
     font-family: "Drogowskaz";
-    margin: 2em auto;
-    text-align: center;
+    margin: 2em 0 0 0;
+}
+
+.cozyclub-page-wrapper h2 {
     font-size: 1.3em;
 }
 
-.cozyclub-page-wrapper h3 {
-    font-family: "Drogowskaz";
-    margin: 2em 0 0 2em;
-}
-
-.cozyclub-page-wrapper p {
-    margin: 1.5em 2.4em;
-    line-height: 1.5em;
-    color: #555;
-}
-
-.cozyclub-page-wrapper ul {
-    margin: 1.5em 1em;
+.cozyclub-page-wrapper p, .cozyclub-page-wrapper ul, .cozyclub-page-wrapper ol {
+    margin: 1.5em 0;
     line-height: 1.5em;
     color: #555;
 }
 
 .cozyclub-page-wrapper table {
-    margin: 1.5em 1em;
-}
-
-.cozyclub-page-wrapper .paypalbutton {
-    margin: 0 2em;
+    margin: 1.5em 0;
 }
 
 @media only screen and (min-width: 769px) {
-    .cozyclub-page-wrapper h2 {
-        margin: 2em 0 2em 2.5em;
-        text-align: left;
+    .cozyclub-page-wrapper {
+        margin: 0 3.5em 3.5em 3.5em;
     }
 
-    .cozyclub-page-wrapper h3 {
-        margin: 3em 0 0em 3em;
+    .cozyclub-page-wrapper h1, .cozyclub-page-wrapper h2, .cozyclub-page-wrapper h3, .cozyclub-page-wrapper h4, .cozyclub-page-wrapper h5, .cozyclub-page-wrapper h6 {
+        margin: 3em 0 0 0;
     }
 
-    .cozyclub-page-wrapper p {
-        margin: 1.5em 3.5em;
+    .cozyclub-page-wrapper p, .cozyclub-page-wrapper ul, .cozyclub-page-wrapper ol {
         width: 50em;
-    }
-
-    .cozyclub-page-wrapper ul {
-        margin: 1.5em 3em;
-    }
-
-    .cozyclub-page-wrapper table {
-        margin: 1.5em 1.5em;
     }
 }

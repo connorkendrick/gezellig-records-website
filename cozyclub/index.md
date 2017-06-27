@@ -7,13 +7,13 @@ layout: cozyclub_page
 This line has two spaces at the end, making the line under it show up on a new line in browser  
 If the line above didn't have these spaces, this line would not show up underneath the first line
 -->
-<!-- Example (editor view) -->
+<!-- Example (browser view) -->
 <!--
-This line has two spaces at the end, making the line under it show up on a new line in browser  
+This line has two spaces at the end, making the line under it show up on a new line in browser
 If the line above didn't have these spaces, this line would not show up underneath the first line
 -->
 
-<!-- Press enter twice in between lines to create a gap between them on the webpage -->
+<!-- Press enter twice between lines to create a gap between them on the webpage -->
 <!-- Example (editor view) -->
 <!--
 In the browser, there will be a gap in between this line and the next line

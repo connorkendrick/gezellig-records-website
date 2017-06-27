@@ -15,7 +15,7 @@ layout: default
         {% for album in site.albums %}
             {% if album.artist == page.artist %}
                 <div class="profile-page-album">
-                    <a href="{ {site.baseurl }}{{ album.url }}">
+                    <a href="{{ site.baseurl }}{{ album.url }}">
                         GZR-{{album.GZR | append: ": " | append: album.title}}
                     </a>
                 </div>

@@ -1,21 +1,28 @@
-.about-page-wrapper h3 {
-    font-family: "Drogowskaz";
-    margin: 2em 0 0 2em;
+.about-page-wrapper {
+    margin: 0 2em 2em 2em;
 }
 
-.about-page-wrapper p {
-    margin: 1.5em 2.4em;
+.about-page-wrapper h1, .about-page-wrapper h2, .about-page-wrapper h3, .about-page-wrapper h4, .about-page-wrapper h5, .about-page-wrapper h6 {
+    font-family: "Drogowskaz";
+    margin: 2em 0 0 0;
+}
+
+.about-page-wrapper p, .about-page-wrapper ul, .about-page-wrapper ol {
+    margin: 1.5em 0;
     line-height: 1.5em;
     color: #555;
 }
 
 @media only screen and (min-width: 769px) {
-    .about-page-wrapper h3 {
-        margin: 3em 0 0 3em;
+    .about-page-wrapper {
+        margin: 0 3.5em 3.5em 3.5em;
     }
 
-    .about-page-wrapper p {
-        margin: 1.5em 3.5em;
+    .about-page-wrapper h1, .about-page-wrapper h2, .about-page-wrapper h3, .about-page-wrapper h4, .about-page-wrapper h5, .about-page-wrapper h6 {
+        margin: 3em 0 0 0;
+    }
+
+    .about-page-wrapper p, .about-page-wrapper ul, .about-page-wrapper ol {
         width: 50em;
     }
 }

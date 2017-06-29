@@ -1,0 +1,93 @@
+.home-page-releases, .home-page-news {
+    width: 100%;
+    min-height: 50em;
+}
+
+.home-page-releases {
+    float: left;
+    background: red;
+}
+
+.home-page-news {
+    float: right;
+    clear: left;
+    background: blue;
+}
+
+.home-page-releases-banner {
+    float: left;
+    height: 2.5em;
+    width: 80%;
+    margin-top: 1.5em;
+    background-color: black;
+}
+
+.home-page-releases-banner h3 {
+    font-family: "Drogowskaz";
+    color: white;
+    float: left;
+    font-size: 1.5em;
+    margin: 0.3em;
+}
+
+
+
+
+
+
+
+
+.home-page-release-box {
+    float: left;
+    width: 79%;
+    border: solid black 1px;
+    margin: 1.5em 0 1.5em 1px;
+}
+
+.home-page-release-box-image {
+    float: left;
+    width: 45%;
+}
+
+.home-page-release-box-image img {
+    max-width: 100%;
+    margin-bottom: -3px;
+}
+
+.home-page-release-box-info {
+    float: right;
+    width: 55%;
+    height: 100%;
+}
+
+.home-page-release-box-info p, .home-page-release-box-link {
+    text-align: center;
+}
+
+.home-page-news-banner {
+    float: left;
+    height: 2.5em;
+    width: 80%;
+    margin-top: 1.5em;
+    background-color: black;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 769px) {
+    .home-page-releases, .home-page-news {
+        width: 50%;
+    }
+
+    .home-page-news {
+        clear: none;
+    }
+
+    .home-page-news-banner {
+        float: left;
+        width: 100%;
+    }
+}

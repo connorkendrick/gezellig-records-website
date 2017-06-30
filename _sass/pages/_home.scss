@@ -39,9 +39,9 @@
 
 .home-page-release-box {
     float: left;
-    width: 79%;
-    border: solid black 1px;
-    margin: 1.5em 0 1.5em 1px;
+    width: 99%;
+    border: solid black 2px;
+    margin: 1.5em 0;
 }
 
 .home-page-release-box-image {
@@ -74,7 +74,12 @@
 
 
 
-
+@media only screen and (min-width: 425px) {
+    .home-page-release-box {
+        width: 79%;
+        margin-right: 0;
+    }
+}
 
 
 @media only screen and (min-width: 769px) {

@@ -22,7 +22,7 @@
     background-color: black;
 }
 
-.home-page-releases-banner h3 {
+.home-page-releases-banner h3, .home-page-news-banner h3 {
     font-family: "Drogowskaz";
     color: white;
     float: left;
@@ -94,5 +94,9 @@
     .home-page-news-banner {
         float: left;
         width: 100%;
+    }
+
+    .home-page-news-banner h3 {
+        float: right;
     }
 }

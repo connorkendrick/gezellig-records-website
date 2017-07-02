@@ -65,6 +65,18 @@
     align-items:center;
 }
 
+.home-page-release-box-title {
+    font-style: italic;
+    font-family: serif;
+    font-size: 1.1em;
+}
+
+.home-page-release-box-artist {
+    font-family: "Drogowskaz";
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
 .home-page-release-box-info {
     float: right;
     width: 55%;
@@ -73,6 +85,7 @@
     top: 0;
     right: 0;
     height: 100%;
+    overflow: hidden;
 }
 
 .home-page-release-box-info p, .home-page-release-box-link {

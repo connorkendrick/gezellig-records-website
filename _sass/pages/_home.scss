@@ -8,12 +8,6 @@
     background: red;
 }
 
-.home-page-news {
-    float: right;
-    clear: left;
-    background: blue;
-}
-
 .home-page-releases-banner {
     float: left;
     height: 2.5em;
@@ -29,15 +23,6 @@
     font-size: 1.5em;
     margin: 0.3em;
 }
-
-
-.home-page-release-box-title, .home-page-release-box-artist, .home-page-release-box-link {
-    height: 33.3%;
-}
-
-
-
-
 
 .home-page-release-box {
     float: left;
@@ -59,24 +44,6 @@
     display: table-cell;
 }
 
-.home-page-release-box-title, .home-page-release-box-artist, .home-page-release-box-link {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-
-.home-page-release-box-title {
-    font-style: italic;
-    font-family: serif;
-    font-size: 1.1em;
-}
-
-.home-page-release-box-artist {
-    font-family: "Drogowskaz";
-    font-weight: bold;
-    font-size: 1.1em;
-}
-
 .home-page-release-box-info {
     float: right;
     width: 55%;
@@ -93,6 +60,31 @@
     margin: 0;
 }
 
+.home-page-release-box-title, .home-page-release-box-artist, .home-page-release-box-link {
+    height: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page-release-box-title {
+    font-style: italic;
+    font-family: serif;
+    font-size: 1.1em;
+}
+
+.home-page-release-box-artist {
+    font-family: "Drogowskaz";
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.home-page-news {
+    float: right;
+    clear: left;
+    background: blue;
+}
+
 .home-page-news-banner {
     float: left;
     height: 2.5em;
@@ -100,8 +92,6 @@
     margin-top: 1.5em;
     background-color: black;
 }
-
-
 
 @media only screen and (min-width: 425px) {
     .home-page-releases-banner {
@@ -133,7 +123,6 @@
         width: 60%;
     }
 }
-
 
 @media only screen and (min-width: 900px) {
     .home-page-releases, .home-page-news {

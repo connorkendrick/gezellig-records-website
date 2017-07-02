@@ -10,7 +10,6 @@
 
 .home-page-releases {
     float: left;
-    background: red;
 }
 
 .home-page-releases-banner {
@@ -88,7 +87,6 @@
 .home-page-news {
     float: right;
     clear: left;
-    background: blue;
 }
 
 .home-page-news-banner {
@@ -145,6 +143,10 @@
 
 .home-page-news-title-excerpt {
     float: left;
+}
+
+.home-page-news-title-excerpt p {
+    margin: 1em 0.5em;
 }
 
 @media only screen and (min-width: 425px) {

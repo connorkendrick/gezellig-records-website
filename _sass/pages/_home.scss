@@ -31,7 +31,9 @@
 }
 
 
-
+.home-page-release-box-title, .home-page-release-box-artist, .home-page-release-box-link {
+    height: 33.3%;
+}
 
 
 
@@ -42,26 +44,40 @@
     width: 98.9%;
     border: solid black 2px;
     margin: 1.5em 0 0 0;
+    display: table;
+    position: relative;
 }
 
 .home-page-release-box-image {
     float: left;
     width: 45%;
+    display: table-cell;
 }
 
 .home-page-release-box-image img {
     max-width: 100%;
-    margin-bottom: -3px;
+    display: table-cell;
+}
+
+.home-page-release-box-title, .home-page-release-box-artist, .home-page-release-box-link {
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .home-page-release-box-info {
     float: right;
     width: 55%;
     height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
 }
 
 .home-page-release-box-info p, .home-page-release-box-link {
     text-align: center;
+    margin: 0;
 }
 
 .home-page-news-banner {

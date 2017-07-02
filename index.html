@@ -7,16 +7,18 @@ layout: default
             <h3>New Releases</h3>
         </div>
 
+        {% for album in site.albums limit:6 %}
         <div class="home-page-release-box">
             <div class="home-page-release-box-image">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/TheBeatles68LP.jpg"/>
+                <img src="{{ site.baseurl | append: '/images/albums/' | append: album.image }}"/>
             </div>
             <div class="home-page-release-box-info">
-                <div class="home-page-release-box-title"><p>Album</p></div>
-                <div class="home-page-release-box-artist"><p>Artist</p></div>
-                <div class="home-page-release-box-link"><a href="#">Album Info</a></div>
+                <div class="home-page-release-box-title"><p>{{ album.title }}</p></div>
+                <div class="home-page-release-box-artist"><p>{{ album.artist }}</p></div>
+                <div class="home-page-release-box-link"><a href="{{ site.baseurl }}{{ album.url }}">Album Info</a></div>
             </div>
         </div>
+        {% endfor %}
     </div>
 
     <div class="home-page-news">
@@ -26,13 +28,13 @@ layout: default
 
         {% for post in site.posts limit:1 %}
             <div class="home-page-news-image">
-                <img src="http://gezelligrecords.com/images/articles/recap.png"/>
+                <img src="{{ site.baseurl | append: '/images/posts/' | append: post.image }}"/>
             </div>
         {% endfor %}
 
         {% for post in site.posts limit:5 %}
             <div class="home-page-news-title-box">
-                <a class="home-page-news-title" href="#">Post Title</a>
+                <a class="home-page-news-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                 {% if forloop.first %}
                     <div class="home-page-news-title-excerpt">
                         {{ post.excerpt }}

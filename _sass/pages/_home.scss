@@ -120,6 +120,33 @@
     min-height: 100%;
 }
 
+.home-page-news-title-box {
+    float: left;
+    width: 100%;
+    border-bottom: solid black 2px;
+    overflow: hidden;
+}
+
+.home-page-news-title {
+    text-decoration: none;
+    color: black;
+    font-family: "Drogowskaz";
+    float: left;
+    text-align: left;
+    width: 95%;
+    font-size: 1.3em;
+    padding: 0.5em;
+    display: block;
+}
+
+.home-page-news-title:hover {
+    color: red;
+}
+
+.home-page-news-title-excerpt {
+    float: left;
+}
+
 @media only screen and (min-width: 425px) {
     .home-page-releases-banner {
         width: 80%;
@@ -151,6 +178,14 @@
     .home-page-news-image {
         width: 80%;
         height: 17em;
+    }
+
+    .home-page-news-title-box {
+        width: 80%;
+    }
+
+    .home-page-news-title {
+        width: 75%;
     }
 }
 
@@ -202,5 +237,20 @@
         float: right;
         width: 100%;
         height: 18em;
+    }
+
+    .home-page-news-title-box {
+        float: right;
+        width: 100%;
+    }
+
+    .home-page-news-title {
+        float: right;
+        text-align: right;
+        width: 95%;
+    }
+
+    .home-page-news-title-excerpt {
+        float: right;
     }
 }

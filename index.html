@@ -24,8 +24,21 @@ layout: default
             <h3>Recent News</h3>
         </div>
 
-        <div class="home-page-news-image">
-            <img src="http://gezelligrecords.com/images/articles/recap.png"/>
-        </div>
+        {% for post in site.posts limit:1 %}
+            <div class="home-page-news-image">
+                <img src="http://gezelligrecords.com/images/articles/recap.png"/>
+            </div>
+        {% endfor %}
+
+        {% for post in site.posts limit:5 %}
+            <div class="home-page-news-title-box">
+                <a class="home-page-news-title" href="#">Post Title</a>
+                {% if forloop.first %}
+                    <div class="home-page-news-title-excerpt">
+                        {{ post.excerpt }}
+                    </div>
+                {% endif %}
+            </div>
+        {% endfor %}
     </div>
 </div>

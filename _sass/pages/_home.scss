@@ -1,3 +1,8 @@
+.home-page-flex-mobile-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 .home-page-releases, .home-page-news {
     width: 100%;
     min-height: 50em;
@@ -26,11 +31,12 @@
 
 .home-page-release-box {
     float: left;
-    width: 98.9%;
+    width: 100%;
     border: solid black 2px;
     margin: 1.5em 0 0 0;
     display: table;
     position: relative;
+    box-sizing: border-box;
 }
 
 .home-page-release-box-image {
@@ -88,43 +94,85 @@
 .home-page-news-banner {
     float: left;
     height: 2.5em;
-    width: 80%;
+    width: 100%;
     margin-top: 1.5em;
     background-color: black;
 }
 
+.home-page-news-image {
+    float: left;
+    height: 12em;
+    width: 100%;
+    border: solid black 2px;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.home-page-news-image img {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: -100%;
+    bottom: -100%;
+    left: -100%;
+    right: -100%;
+    min-height: 100%;
+}
+
 @media only screen and (min-width: 425px) {
     .home-page-releases-banner {
-        width: 81%;
+        width: 80%;
     }
 
     .home-page-release-box {
         width: 80%;
         margin-right: 0;
     }
+
+    .home-page-news-image {
+        height: 15em;
+    }
 }
 
 @media only screen and (min-width: 600px) {
     .home-page-releases-banner {
-        width: 71%;
+        width: 70%;
     }
 
     .home-page-release-box {
         width: 70%;
     }
+
+    .home-page-news-banner {
+        width: 80%;
+    }
+
+    .home-page-news-image {
+        width: 80%;
+        height: 17em;
+    }
 }
 
 @media only screen and (min-width: 769px) {
     .home-page-releases-banner {
-        width: 61%;
+        width: 60%;
     }
 
     .home-page-release-box {
         width: 60%;
     }
+
+    .home-page-news-image {
+        height: 20em;
+    }
 }
 
 @media only screen and (min-width: 900px) {
+    .home-page-flex-mobile-wrapper {
+        display: block;
+    }
+
     .home-page-releases, .home-page-news {
         width: 50%;
     }
@@ -134,7 +182,7 @@
     }
 
     .home-page-release-box {
-        width: 79%;
+        width: 80%;
     }
 
     .home-page-news {
@@ -148,5 +196,11 @@
 
     .home-page-news-banner h3 {
         float: right;
+    }
+
+    .home-page-news-image {
+        float: right;
+        width: 100%;
+        height: 18em;
     }
 }

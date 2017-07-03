@@ -17,7 +17,6 @@
 .grid li {
     position: relative;
     display: inline-block;
-    background: #eee;
     width: 100%;
     padding-top: 100%; /* Used instead of height to give elements fluid, width-based height */
     margin-top: 5%;
@@ -27,12 +26,10 @@
     content: '';
     display: inline-block;
     width: 100%;
-    border-top: 10px dashed #922d8d; /* Border added to make element visible for demonstration purposes */
 }
 
 .grid .placeholder {
     padding: 0;
-    border-top: 10px solid #922d8d; /* Border added to make element visible for demonstration purposes */
 }
 
 /* -- MEDIA QUERIES DEFINING RESPONSIVE LAYOUTS -- */

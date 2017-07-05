@@ -140,8 +140,12 @@
     display: block;
 }
 
-.home-page-news-title:hover, .home-page-news-title:active {
+.home-page-news-title:hover {
     color: red;
+}
+
+.home-page-news-title:active {
+    color: black;
 }
 
 .home-page-news-title-excerpt {

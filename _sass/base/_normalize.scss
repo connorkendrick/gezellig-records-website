@@ -108,6 +108,14 @@ a {
 }
 
 /**
+ * Change the default color of body text to #555
+ */
+
+p, ul, ol {
+    color: #555;
+}
+
+/**
  * Remove the outline on focused links when they are also active or hovered
  * in all browsers (opinionated).
  */

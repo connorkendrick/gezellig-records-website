@@ -37,10 +37,10 @@ exclude:
   - Gemfile.lock
 
 collections:
-    artist_profiles:
+    artist_info:
       output: true
       permalink: "artists/:name"
-    albums:
+    album_info:
       output: true
       permalink: "releases/:title"
 
@@ -58,10 +58,10 @@ defaults:
 
   -
     scope:
-      path: "_artist_profiles"
-      type: "artist_profiles"
+      path: "_artist_info"
+      type: "artist_info"
     values:
-      layout: "profile"
+      layout: "artist_info_page"
       artist: ""
       image: ""
       website: " "
@@ -74,10 +74,10 @@ defaults:
 
   -
     scope:
-      path: "_albums"
-      type: "albums"
+      path: "_album_info"
+      type: "album_info"
     values:
-      layout: "album"
+      layout: "album_info_page"
       title: ""
       artist: ""
       image: ""

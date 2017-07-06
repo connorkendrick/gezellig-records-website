@@ -13,7 +13,7 @@ layout: default
         <div class="info-page-divider"></div>
 
         <div class="info-page-info-list">
-            {% for album in site.albums %}
+            {% for album in site.album_info %}
                 {% if album.artist == page.artist %}
                     <div class="info-page-info-list-item">
                         <a href="{{ site.baseurl }}{{ album.url }}">

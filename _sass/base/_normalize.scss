@@ -116,6 +116,14 @@ p, ul, ol {
 }
 
 /**
+ * Change the default font-family for headers to custom font
+ */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Drogowskaz", Gadget, sans-serif;
+}
+
+/**
  * Remove the outline on focused links when they are also active or hovered
  * in all browsers (opinionated).
  */

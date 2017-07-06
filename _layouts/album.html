@@ -1,81 +1,83 @@
 ---
 layout: default
 ---
-<div class="album-page-content">
+<div class="album-info-page-wrapper">
+    <div class="info-page-content">
 
-    <h2 class="album-page-title">{{ page.title }}</h2>
+        <h2 class="info-page-title">{{ page.title }}</h2>
 
-    <img class="album-page-image" src="{{ site.baseurl | append: '/images/albums/' | append: page.image }}"/>
+        <img class="info-page-image" src="{{ site.baseurl | append: '/images/albums/' | append: page.image }}"/>
 
-    <div class="album-page-text">{{ content }}</div>
+        <div class="info-page-text">{{ content }}</div>
 
-    <div class="album-page-divider"></div>
+        <div class="info-page-divider"></div>
 
-    <div class="album-page-info-listing">
-        <div class="album-page-info-item">
-            <p>Artist: {{ page.artist }}</p>
+        <div class="info-page-info-list">
+            <div class="info-page-info-list-item">
+                <p>Artist: {{ page.artist }}</p>
+            </div>
+            <div class ="info-page-info-list-item">
+                <p>Release Number: GZR-{{ page.GZR }}</p>
+            </div>
         </div>
-        <div class ="album-page-info-item">
-            <p>Release Number: GZR-{{ page.GZR }}</p>
-        </div>
+
+        <div class="info-page-divider"></div>
+
+        <ul class="info-page-social-links">
+            {% if page.itunes != " " %}
+                <li>
+                    <a class="info-page-social-link" href="{{ page.itunes }}" target="_blank">iTunes</a>
+                </li>
+            {% endif %}
+
+            {% if page.bandcamp != " " %}
+                <li>
+                    <a class="info-page-social-link" href="{{ page.bandcamp }}" target="_blank">Bandcamp</a>
+                </li>
+            {% endif %}
+
+            {% if page.googleplay != " " %}
+                <li>
+                    <a class="info-page-social-link" href="{{ page.googleplay }}" target="_blank">Google Play</a>
+                </li>
+            {% endif %}
+
+            {% if page.amazon != " " %}
+                <li>
+                    <a class="info-page-social-link" href="{{ page.amazon }}" target="_blank">Amazon</a>
+                </li>
+            {% endif %}
+
+            {% if page.paypal != " " %}
+                <li>
+                    <a class="info-page-social-link" href="{{ page.paypal }}" target="_blank">PayPal</a>
+                </li>
+            {% endif %}
+
+            {% if page.soundcloud != " " %}
+                <li>
+                    <a class="info-page-social-link" href="{{ page.soundcloud }}" target="_blank">SoundCloud</a>
+                </li>
+            {% endif %}
+
+            {% if page.spotify != " " %}
+                <li>
+                    <a class="info-page-social-link" href="{{ page.spotify }}" target="_blank">Spotify</a>
+                </li>
+            {% endif %}
+
+            {% if page.youtube != " " %}
+                <li>
+                    <a class="info-page-social-link" href="{{ page.youtube }}" target="_blank">YouTube</a>
+                </li>
+            {% endif %}
+
+            {% if page.vimeo != " " %}
+                <li>
+                    <a class="info-page-social-link" href="{{ page.vimeo }}" target="_blank">Vimeo</a>
+                </li>
+            {% endif %}
+        </ul>
+
     </div>
-
-    <div class="album-page-divider"></div>
-
-    <ul class="album-page-social-links">
-        {% if page.itunes != " " %}
-            <li>
-                <a class="album-page-social-link" href="{{ page.itunes }}" target="_blank">iTunes</a>
-            </li>
-        {% endif %}
-
-        {% if page.bandcamp != " " %}
-            <li>
-                <a class="album-page-social-link" href="{{ page.bandcamp }}" target="_blank">Bandcamp</a>
-            </li>
-        {% endif %}
-
-        {% if page.googleplay != " " %}
-            <li>
-                <a class="album-page-social-link" href="{{ page.googleplay }}" target="_blank">Google Play</a>
-            </li>
-        {% endif %}
-
-        {% if page.amazon != " " %}
-            <li>
-                <a class="album-page-social-link" href="{{ page.amazon }}" target="_blank">Amazon</a>
-            </li>
-        {% endif %}
-
-        {% if page.paypal != " " %}
-            <li>
-                <a class="album-page-social-link" href="{{ page.paypal }}" target="_blank">PayPal</a>
-            </li>
-        {% endif %}
-
-        {% if page.soundcloud != " " %}
-            <li>
-                <a class="album-page-social-link" href="{{ page.soundcloud }}" target="_blank">SoundCloud</a>
-            </li>
-        {% endif %}
-
-        {% if page.spotify != " " %}
-            <li>
-                <a class="album-page-social-link" href="{{ page.spotify }}" target="_blank">Spotify</a>
-            </li>
-        {% endif %}
-
-        {% if page.youtube != " " %}
-            <li>
-                <a class="album-page-social-link" href="{{ page.youtube }}" target="_blank">YouTube</a>
-            </li>
-        {% endif %}
-
-        {% if page.vimeo != " " %}
-            <li>
-                <a class="album-page-social-link" href="{{ page.vimeo }}" target="_blank">Vimeo</a>
-            </li>
-        {% endif %}
-    </ul>
-
 </div>

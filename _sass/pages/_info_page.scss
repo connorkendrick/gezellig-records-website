@@ -1,38 +1,39 @@
-.album-page-content {
+.info-page-content {
     margin: 1.5em;
 }
 
-.album-page-title {
+.info-page-title {
     font-family: "Drogowskaz";
     font-size: 1.3em;
 }
 
-.album-page-image {
+.info-page-image {
     max-width: 100%;
 }
 
-.album-page-text {
+.info-page-text {
     width: 100%;
     line-height: 1.5em;
 }
 
-.album-page-divider {
+.info-page-divider {
     float: left;
     clear: both;
     border-bottom: 1px solid #555;
     width: 100%;
 }
 
-.album-page-info-listing {
+.info-page-info-list {
     float: left;
     clear: both;
 }
 
-.album-page-info-item {
+.info-page-info-list-item {
+    //display: inline-block;
     margin: 1.5em 0 1.5em 0;
 }
 
-.album-page-social-links {
+.info-page-social-links {
     float: left;
     clear: both;
     margin: 0;
@@ -40,42 +41,42 @@
     list-style-type: none;
 }
 
-.album-page-social-links li {
+.info-page-social-links li {
     margin: 1.5em 0;
 }
 
 @media only screen and (min-width: 425px) {
-    .album-page-content {
+    .info-page-content {
         margin: 3em;
     }
 }
 
 @media only screen and (min-width: 769px) {
-    .album-page-image {
+    .info-page-image {
         width: 75%;
     }
 
-    .album-page-text {
+    .info-page-text {
         width: 75%;
     }
 
-    .album-page-divider {
+    .info-page-divider {
         max-width: 75%;
     }
 }
 
 @media only screen and (min-width: 1024px) {
-    .album-page-image {
+    .info-page-image {
         width: 50%;
         float: left;
         margin: 0 2em 1em 0;
     }
 
-    .album-page-text {
+    .info-page-text {
         width: 100%;
     }
 
-    .album-page-divider {
+    .info-page-divider {
         max-width: 50%;
     }
 }

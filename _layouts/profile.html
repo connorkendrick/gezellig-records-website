@@ -1,78 +1,80 @@
 ---
 layout: default
 ---
-<div class="profile-page-content">
+<div class="artist-info-page-wrapper">
+    <div class="info-page-content">
 
-    <h2 class="profile-page-name">{{ page.artist }}</h2>
+        <h2 class="info-page-title">{{ page.artist }}</h2>
 
-    <img class="profile-page-image" src="{{ site.baseurl | append: '/images/artists/' | append: page.image }}"/>
+        <img class="info-page-image" src="{{ site.baseurl | append: '/images/artists/' | append: page.image }}"/>
 
-    <div class="profile-page-text">{{ content }}</div>
+        <div class="info-page-text">{{ content }}</div>
 
-    <div class="profile-page-divider"></div>
+        <div class="info-page-divider"></div>
 
-    <div class="profile-page-album-list">
-        {% for album in site.albums %}
-            {% if album.artist == page.artist %}
-                <div class="profile-page-album">
-                    <a href="{{ site.baseurl }}{{ album.url }}">
-                        GZR-{{album.GZR | append: ": " | append: album.title}}
-                    </a>
-                </div>
+        <div class="info-page-info-list">
+            {% for album in site.albums %}
+                {% if album.artist == page.artist %}
+                    <div class="info-page-info-list-item">
+                        <a href="{{ site.baseurl }}{{ album.url }}">
+                            GZR-{{album.GZR | append: ": " | append: album.title}}
+                        </a>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="info-page-divider"></div>
+
+        <ul class="info-page-social-links">
+            {% if page.website != " " %}
+                <li>
+                    <a class="info-page-social-link" href="{{ page.website }}" target="_blank">Website</a>
+                </li>
             {% endif %}
-        {% endfor %}
+
+
+            {% if page.bandcamp != " " %}
+                <li>
+                    <a class="info-page-social-link" href="{{ page.bandcamp }}" target="_blank">Bandcamp</a>
+                </li>
+            {% endif %}
+
+
+            {% if page.soundcloud != " " %}
+                <li>
+                    <a class="info-page-social-link" href="{{ page.soundcloud }}" target="_blank">SoundCloud</a>
+                </li>
+            {% endif %}
+
+
+            {% if page.facebook != " " %}
+                <li>
+                    <a class="info-page-social-link" href="{{ page.facebook }}" target="_blank">Facebook</a>
+                </li>
+            {% endif %}
+
+
+            {% if page.twitter != " " %}
+                <li>
+                    <a class="info-page-social-link" href="{{ page.twitter }}" target="_blank">Twitter</a>
+                </li>
+            {% endif %}
+
+
+            {% if page.youtube != " " %}
+                <li>
+                    <a class="info-profile-social-link" href="{{ page.youtube }}" target="_blank">YouTube</a>
+                </li>
+            {% endif %}
+
+
+            {% if page.instagram != " " %}
+                <li>
+                    <a class="info-profile-social-link" href="{{ page.instagram }}" target="_blank">Instagram</a>
+                </li>
+            {% endif %}
+        </ul>
+
     </div>
-
-    <div class="profile-page-divider"></div>
-
-    <ul class="profile-page-social-links">
-        {% if page.website != " " %}
-            <li>
-                <a class="profile-page-social-link" href="{{ page.website }}" target="_blank">Website</a>
-            </li>
-        {% endif %}
-
-
-        {% if page.bandcamp != " " %}
-            <li>
-                <a class="profile-page-social-link" href="{{ page.bandcamp }}" target="_blank">Bandcamp</a>
-            </li>
-        {% endif %}
-
-
-        {% if page.soundcloud != " " %}
-            <li>
-                <a class="profile-page-social-link" href="{{ page.soundcloud }}" target="_blank">SoundCloud</a>
-            </li>
-        {% endif %}
-
-
-        {% if page.facebook != " " %}
-            <li>
-                <a class="profile-page-social-link" href="{{ page.facebook }}" target="_blank">Facebook</a>
-            </li>
-        {% endif %}
-
-
-        {% if page.twitter != " " %}
-            <li>
-                <a class="profile-page-social-link" href="{{ page.twitter }}" target="_blank">Twitter</a>
-            </li>
-        {% endif %}
-
-
-        {% if page.youtube != " " %}
-            <li>
-                <a class="artist-profile-social-link" href="{{ page.youtube }}" target="_blank">YouTube</a>
-            </li>
-        {% endif %}
-
-
-        {% if page.instagram != " " %}
-            <li>
-                <a class="artist-profile-social-link" href="{{ page.instagram }}" target="_blank">Instagram</a>
-            </li>
-        {% endif %}
-    </ul>
-
 </div>

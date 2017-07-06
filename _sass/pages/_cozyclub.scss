@@ -1,35 +1,7 @@
-.cozyclub-page-wrapper {
-    margin: 0 2em 2em 2em;
-}
-
-.cozyclub-page-wrapper h1, .cozyclub-page-wrapper h2, .cozyclub-page-wrapper h3, .cozyclub-page-wrapper h4, .cozyclub-page-wrapper h5, .cozyclub-page-wrapper h6 {
-    font-family: "Drogowskaz";
-    margin: 2em 0 0 0;
-}
-
 .cozyclub-page-wrapper h2 {
     font-size: 1.3em;
 }
 
-.cozyclub-page-wrapper p, .cozyclub-page-wrapper ul, .cozyclub-page-wrapper ol {
-    margin: 1.5em 0;
-    line-height: 1.5em;
-}
-
 .cozyclub-page-wrapper table {
     margin: 1.5em 0;
-}
-
-@media only screen and (min-width: 769px) {
-    .cozyclub-page-wrapper {
-        margin: 0 3.5em 3.5em 3.5em;
-    }
-
-    .cozyclub-page-wrapper h1, .cozyclub-page-wrapper h2, .cozyclub-page-wrapper h3, .cozyclub-page-wrapper h4, .cozyclub-page-wrapper h5, .cozyclub-page-wrapper h6 {
-        margin: 3em 0 0 0;
-    }
-
-    .cozyclub-page-wrapper p, .cozyclub-page-wrapper ul, .cozyclub-page-wrapper ol {
-        width: 50em;
-    }
 }

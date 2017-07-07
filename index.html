@@ -10,7 +10,7 @@ layout: default
         {% for album in site.album_info limit:6 %}
         <div class="home-page-release-box">
             <div class="home-page-release-box-image">
-                <img src="{{ site.baseurl | append: '/images/albums/' | append: album.image }}"/>
+                <img src="{{ site.baseurl }}/images/{{ album.image }}"/>
             </div>
             <div class="home-page-release-box-info">
                 <div class="home-page-release-box-title"><p>{{ album.title }}</p></div>
@@ -28,7 +28,7 @@ layout: default
 
         {% for post in site.posts limit:1 %}
             <div class="home-page-news-image">
-                <img src="{{ site.baseurl | append: '/images/posts/' | append: post.image }}"/>
+                <img src="{{ site.baseurl }}/images/{{ post.image }}"/>
             </div>
         {% endfor %}
 

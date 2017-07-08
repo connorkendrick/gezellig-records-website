@@ -132,7 +132,8 @@
     float: left;
     text-align: left;
     width: 95%;
-    font-size: 1.3em;
+    font-size: 1.2em;
+    line-height: 1.4em;
     padding: 0.5em;
     display: block;
 }
@@ -143,10 +144,11 @@
 
 .home-page-news-title-excerpt {
     float: left;
+    text-align: left;
 }
 
 .home-page-news-title-excerpt p {
-    margin: 1em 0.5em;
+    margin: 1em 0.5em 1em 0;
     line-height: 1.5em;
 }
 
@@ -246,9 +248,7 @@
 
     .home-page-news-title {
         width: 95%;
-    }
-
-    .home-page-news-title-excerpt {
         float: right;
+        text-align: right;
     }
 }

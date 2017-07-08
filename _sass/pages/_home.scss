@@ -148,7 +148,7 @@
 }
 
 .home-page-news-title-excerpt p {
-    margin: 1em 0.5em 1em 0;
+    margin: 1em 0.5em;
     line-height: 1.5em;
 }
 
@@ -248,7 +248,10 @@
 
     .home-page-news-title {
         width: 95%;
-        float: right;
-        text-align: right;
+        padding-left: 0;
+    }
+
+    .home-page-news-title-excerpt p {
+        margin: 1em 0.5em 1em 0;
     }
 }

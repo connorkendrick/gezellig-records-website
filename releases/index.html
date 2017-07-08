@@ -4,7 +4,8 @@ layout: default
 <div class="releases-page-grid-wrapper">
     <ul class="grid">
 
-        {% for album in site.album_info %}
+        {% assign sorted = (site.album_info | sort: 'GZR') | reverse %}
+        {% for album in sorted %}
             <li>
                 <div class="releases-page-box">
                     <a class="releases-page-overlay-link" href="{{ site.baseurl }}{{ album.url }}">

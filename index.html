@@ -7,7 +7,8 @@ layout: default
             <h3>New Releases</h3>
         </div>
 
-        {% for album in site.album_info limit:6 %}
+        {% assign sorted = (site.album_info | sort: 'GZR') | reverse %}
+        {% for album in sorted limit:6 %}
         <div class="home-page-release-box">
             <div class="home-page-release-box-image">
                 <img src="{{ site.baseurl }}/images/{{ album.image }}"/>

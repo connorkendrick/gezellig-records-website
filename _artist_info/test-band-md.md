@@ -1,7 +1,7 @@
 ---
 layout: artist_info_page
 artist: Test Artist
-image: "/rs-metallica-1d77d17a-78a8-4da2-b52a-5cc734e8f2db.jpg"
+image: "/images/daily_beacon_square.jpg"
 website: " "
 bandcamp: " "
 soundcloud: " "

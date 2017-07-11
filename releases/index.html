@@ -11,9 +11,9 @@ layout: default
                     <a class="releases-page-overlay-link" href="{{ site.baseurl }}{{ album.url }}">
                         <div class="releases-page-box-image-section">
                             <!-- If/Else block to handle media uploads from Forestry.io -->
-                            {% if page.image contains "/images/" %}
+                            {% if album.image contains "/images/" %}
                                 <img class="releases-page-box-image" src="{{ site.baseurl }}{{ album.image }}"/>
-                            {% elsif page.image contains "/" %}
+                            {% elsif album.image contains "/" %}
                                 <img class="releases-page-box-image" src="{{ site.baseurl }}/images{{ album.image }}"/>
                             {% else %}
                                 <img class="releases-page-box-image" src="{{ site.baseurl }}/images/{{ album.image }}"/>

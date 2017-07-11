@@ -12,9 +12,9 @@ layout: default
         <div class="home-page-release-box">
             <div class="home-page-release-box-image">
                 <!-- If/Else block to handle media uploads from Forestry.io -->
-                {% if page.image contains "/images/" %}
+                {% if album.image contains "/images/" %}
                     <img src="{{ site.baseurl }}{{ album.image }}"/>
-                {% elsif page.image contains "/" %}
+                {% elsif album.image contains "/" %}
                     <img src="{{ site.baseurl }}/images{{ album.image }}"/>
                 {% else %}
                     <img src="{{ site.baseurl }}/images/{{ album.image }}"/>
@@ -37,9 +37,9 @@ layout: default
         {% for post in site.posts limit:1 %}
             <div class="home-page-news-image">
                 <!-- If/Else block to handle media uploads from Forestry.io -->
-                {% if page.image contains "/images/" %}
+                {% if post.image contains "/images/" %}
                     <img src="{{ site.baseurl }}{{ post.image }}"/>
-                {% elsif page.image contains "/" %}
+                {% elsif post.image contains "/" %}
                     <img src="{{ site.baseurl }}/images{{ post.image }}"/>
                 {% else %}
                     <img src="{{ site.baseurl }}/images/{{ post.image }}"/>

@@ -1,7 +1,7 @@
 ---
 layout: artist_info_page
 artist: Test Artist
-image: "/images/daily_beacon_square.jpg"
+image: "/images/gezellig_records_logo.jpg"
 website: " "
 bandcamp: " "
 soundcloud: " "

@@ -11,7 +11,14 @@ layout: default
         {% for album in sorted limit:6 %}
         <div class="home-page-release-box">
             <div class="home-page-release-box-image">
-                <img src="{{ site.baseurl }}/images/{{ album.image }}"/>
+                <!-- If/Else block to handle media uploads from Forestry.io -->
+                {% if page.image contains "/images/" %}
+                    <img src="{{ site.baseurl }}{{ album.image }}"/>
+                {% elsif page.image contains "/" %}
+                    <img src="{{ site.baseurl }}/images{{ album.image }}"/>
+                {% else %}
+                    <img src="{{ site.baseurl }}/images/{{ album.image }}"/>
+                {% endif %}
             </div>
             <div class="home-page-release-box-info">
                 <div class="home-page-release-box-title"><p>{{ album.title }}</p></div>
@@ -29,7 +36,14 @@ layout: default
 
         {% for post in site.posts limit:1 %}
             <div class="home-page-news-image">
-                <img src="{{ site.baseurl }}/images/{{ post.image }}"/>
+                <!-- If/Else block to handle media uploads from Forestry.io -->
+                {% if page.image contains "/images/" %}
+                    <img src="{{ site.baseurl }}{{ post.image }}"/>
+                {% elsif page.image contains "/" %}
+                    <img src="{{ site.baseurl }}/images{{ post.image }}"/>
+                {% else %}
+                    <img src="{{ site.baseurl }}/images/{{ post.image }}"/>
+                {% endif %}
             </div>
         {% endfor %}
 

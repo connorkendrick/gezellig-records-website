@@ -7,7 +7,14 @@ layout: default
         <li>
             <div class="artists-page-box">
                 <a class="artists-page-overlay-link" href="{{ site.baseurl }}{{ profile.url }}">
-                    <img class="artists-page-artist-image" src="{{ site.baseurl }}/images/{{ profile.image }}"/>
+                    <!-- If/Else block to handle media uploads from Forestry.io -->
+                    {% if page.image contains "/images/" %}
+                        <img class="artists-page-artist-image" src="{{ site.baseurl }}{{ profile.image }}"/>
+                    {% elsif page.image contains "/" %}
+                        <img class="artists-page-artist-image" src="{{ site.baseurl }}/images{{ profile.image }}"/>
+                    {% else %}
+                        <img class="artists-page-artist-image" src="{{ site.baseurl }}/images/{{ profile.image }}"/>
+                    {% endif %}
                     <div class="artists-page-artist-name">
                         <h2>{{ profile.artist }}</h2>
                     </div>

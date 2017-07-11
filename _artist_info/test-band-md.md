@@ -1,7 +1,7 @@
 ---
 layout: artist_info_page
-artist: ''
-image: ''
+artist: Test Artist
+image: "/images/daily_beacon_square.jpg"
 website: " "
 bandcamp: " "
 soundcloud: " "

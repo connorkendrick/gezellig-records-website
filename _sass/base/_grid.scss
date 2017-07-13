@@ -1,0 +1,63 @@
+// Inspired by patrickkunka on codepen.io
+
+/* -- DEFAULTS -- */
+
+.grid, .grid li {
+    padding: 0;
+    list-style-type: none;
+}
+
+/* -- FLUID GRID STYLES -- */
+
+.grid {
+    text-align: justify;
+    margin: 0 5% 5% 5%;
+}
+
+.grid li {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding-top: 100%; /* Used instead of height to give elements fluid, width-based height */
+    margin-top: 5%;
+}
+
+.grid:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.grid .placeholder {
+    padding: 0;
+}
+
+/* -- MEDIA QUERIES DEFINING RESPONSIVE LAYOUTS -- */
+
+/* 2 COL */
+
+@media only screen and (min-width: 490px) {
+    .grid {
+        margin: 0 4% 4% 4%;
+    }
+
+    .grid li {
+        width: 48%;
+        padding-top: 48%;
+        margin-top: 4%;
+    }
+}
+
+/* 3 COL */
+
+@media only screen and (min-width: 769px) {
+    .grid {
+        margin: 0 3% 3% 3%;
+    }
+
+    .grid li {
+        width: 31%;
+        padding-top: 31%;
+        margin-top: 3%;
+    }
+}

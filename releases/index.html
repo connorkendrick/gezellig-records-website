@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<div class="releases-page-grid-wrapper">
+    <ul class="grid">
+
+        {% assign sorted = (site.album_info | sort: 'GZR') | reverse %}
+        {% for album in sorted %}
+            <li>
+                <div class="releases-page-box">
+                    <a class="releases-page-overlay-link" href="{{ site.baseurl }}{{ album.url }}">
+                        <div class="releases-page-box-image-section">
+                            <!-- If/Else block to handle media uploads from Forestry.io -->
+                            {% if album.image contains "/images/" %}
+                                <img class="releases-page-box-image" src="{{ site.baseurl }}{{ album.image }}"/>
+                            {% elsif album.image contains "/" %}
+                                <img class="releases-page-box-image" src="{{ site.baseurl }}/images{{ album.image }}"/>
+                            {% else %}
+                                <img class="releases-page-box-image" src="{{ site.baseurl }}/images/{{ album.image }}"/>
+                            {% endif %}
+                        </div>
+
+                        <div class="releases-page-box-info-section">
+                            <div class="releases-page-box-title">
+                                <p>{{ album.title }}</p>
+                            </div>
+                            <div class="releases-page-box-artist">
+                                <h3>{{ album.artist }}</h3>
+                            </div>
+                            <div class="releases-page-box-number">
+                                <p>GZR-{{ album.GZR }}</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </li>
+        {% endfor %}
+
+        <li class="placeholder"></li>
+    </ul>
+</div>

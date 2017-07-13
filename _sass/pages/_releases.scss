@@ -1,0 +1,93 @@
+.releases-page-box {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.releases-page-overlay-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.releases-page-box-image-section {
+    width: 100%;
+    height: 67%;
+}
+
+.releases-page-box-image {
+    height: 100%;
+    width: 100%;
+}
+
+.releases-page-box-info-section {
+    border-top: 2px solid black;
+    width: 100%;
+    height: 30%;
+}
+
+.releases-page-box-title, .releases-page-box-artist, .releases-page-box-number {
+    width: 100%;
+    overflow: hidden;
+}
+
+.releases-page-box-title p, .releases-page-box-artist h3, .releases-page-box-number p {
+    margin: 0;
+    text-align: left;
+}
+
+.releases-page-box-title {
+    height: 43.6%;
+}
+
+.releases-page-box-title p {
+    font-style: italic;
+    font-family: serif;
+    line-height: 1em;
+    padding: 0.5em 0.5em 0 0.5em;
+}
+
+.releases-page-box-artist {
+    display: table;
+    height: 33.3%;
+}
+
+.releases-page-box-artist h3 {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 0.5em;
+    color: black;
+    font-size: 1.2em;
+}
+
+.releases-page-box-number {
+    height: 20%;
+}
+
+.releases-page-box-number p {
+    position: absolute;
+    bottom: 0;
+    font-size: 0.7em;
+    font-weight: bold;
+    padding: 0 0.5em 0.5em 0.5em;
+}
+
+.releases-page-grid-wrapper li {
+    padding-top: 145%;
+}
+
+@media only screen and (min-width: 490px) {
+    .releases-page-grid-wrapper li {
+        padding-top: 70%;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .releases-page-grid-wrapper li {
+        padding-top: 45%;
+    }
+}

@@ -1,0 +1,61 @@
+---
+layout: default
+---
+<div class="home-page-flex-mobile-wrapper">
+    <div class="home-page-releases">
+        <div class="home-page-releases-banner">
+            <h3>New Releases</h3>
+        </div>
+
+        {% assign sorted = (site.album_info | sort: 'GZR') | reverse %}
+        {% for album in sorted limit:6 %}
+        <div class="home-page-release-box">
+            <div class="home-page-release-box-image">
+                <!-- If/Else block to handle media uploads from Forestry.io -->
+                {% if album.image contains "/images/" %}
+                    <img src="{{ site.baseurl }}{{ album.image }}"/>
+                {% elsif album.image contains "/" %}
+                    <img src="{{ site.baseurl }}/images{{ album.image }}"/>
+                {% else %}
+                    <img src="{{ site.baseurl }}/images/{{ album.image }}"/>
+                {% endif %}
+            </div>
+            <div class="home-page-release-box-info">
+                <div class="home-page-release-box-title"><p>{{ album.title }}</p></div>
+                <div class="home-page-release-box-artist"><h4>{{ album.artist }}</h4></div>
+                <div class="home-page-release-box-link"><a href="{{ site.baseurl }}{{ album.url }}">Album Info</a></div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="home-page-news">
+        <div class="home-page-news-banner">
+            <h3>Recent News</h3>
+        </div>
+
+        {% for post in site.posts limit:1 %}
+            <div class="home-page-news-image">
+                <!-- If/Else block to handle media uploads from Forestry.io -->
+                {% if post.image contains "/images/" %}
+                    <img src="{{ site.baseurl }}{{ post.image }}"/>
+                {% elsif post.image contains "/" %}
+                    <img src="{{ site.baseurl }}/images{{ post.image }}"/>
+                {% else %}
+                    <img src="{{ site.baseurl }}/images/{{ post.image }}"/>
+                {% endif %}
+            </div>
+        {% endfor %}
+
+        {% for post in site.posts limit:5 %}
+            <div class="home-page-news-title-box">
+                <a class="home-page-news-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                {% if forloop.first %}
+                    <div class="home-page-news-title-excerpt">
+                        {{ post.excerpt }}
+                    </div>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+</div>

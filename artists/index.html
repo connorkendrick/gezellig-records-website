@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<ul class="grid">
+
+    {% for profile in site.artist_info %}
+        <li>
+            <div class="artists-page-box">
+                <a class="artists-page-overlay-link" href="{{ site.baseurl }}{{ profile.url }}">
+                    <!-- If/Else block to handle media uploads from Forestry.io -->
+                    {% if profile.image contains "/images/" %}
+                        <img class="artists-page-artist-image" src="{{ site.baseurl }}{{ profile.image }}"/>
+                    {% elsif profile.image contains "/" %}
+                        <img class="artists-page-artist-image" src="{{ site.baseurl }}/images{{ profile.image }}"/>
+                    {% else %}
+                        <img class="artists-page-artist-image" src="{{ site.baseurl }}/images/{{ profile.image }}"/>
+                    {% endif %}
+                    <div class="artists-page-artist-name">
+                        <h2>{{ profile.artist }}</h2>
+                    </div>
+                </a>
+            </div>
+        </li>
+    {% endfor %}
+
+    <li class="placeholder"></li>
+</ul>

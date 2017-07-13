@@ -1,0 +1,25 @@
+.nav {
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.nav-list {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.nav-item {
+    font-size: 1.2em;
+    font-family: "Drogowskaz";
+}
+
+.nav-item a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 0.9em;
+}

@@ -1,0 +1,26 @@
+.md-page-wrapper {
+    margin: 0 2em 2em 2em;
+}
+
+.md-page-wrapper h1, .md-page-wrapper h2, .md-page-wrapper h3, .md-page-wrapper h4, .md-page-wrapper h5, .md-page-wrapper h6 {
+    margin: 2em 0 0 0;
+}
+
+.md-page-wrapper p, .md-page-wrapper ul, .md-page-wrapper ol {
+    margin: 1.5em 0;
+    line-height: 1.5em;
+}
+
+@media only screen and (min-width: 769px) {
+    .md-page-wrapper {
+        margin: 0 3.5em 3.5em 3.5em;
+    }
+
+    .about-page-wrapper h1, .about-page-wrapper h2, .about-page-wrapper h3, .about-page-wrapper h4, .about-page-wrapper h5, .about-page-wrapper h6 {
+        margin: 3em 0 0 0;
+    }
+
+    .about-page-wrapper p, .about-page-wrapper ul, .about-page-wrapper ol {
+        width: 50em;
+    }
+}

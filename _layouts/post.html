@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="post-content">
+    <h2 class="post-title">{{ page.title }}</h2>
+    <br/>
+    <p class="post-date">{{ page.date | date: '%B %d, %Y' }}</p>
+
+    <div class="post-image">
+        <!-- If/Else block to handle media uploads from Forestry.io -->
+        {% if page.image contains "/images/" %}
+            <img src="{{ site.baseurl }}{{ page.image }}"/>
+        {% elsif page.image contains "/" %}
+            <img src="{{ site.baseurl }}/images{{ page.image }}"/>
+        {% else %}
+            <img src="{{ site.baseurl }}/images/{{ page.image }}"/>
+        {% endif %}
+    </div>
+
+    <div class="post-body">
+        {{ content }}
+    </div>
+</div>

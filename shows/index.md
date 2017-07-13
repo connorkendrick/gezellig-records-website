@@ -31,11 +31,6 @@ This is used to separate lines with larger gaps, rather than just new lines
 
 ## Upcoming Shows
 
-### Artist Name
+<!-- ### Artist Name
 6/6/2017 - Knoxville, TN @ The Pilot Light - [More Info](#)  
-6/6/2017 - Knoxville, TN @ The Pilot Light - [More Info](#)  
-
-### Artist Name
-6/6/2017 - Knoxville, TN @ The Pilot Light - [More Info](#)  
-6/6/2017 - Knoxville, TN @ The Pilot Light - [More Info](#)  
-6/6/2017 - Knoxville, TN @ The Pilot Light - [More Info](#)  
+6/6/2017 - Knoxville, TN @ The Pilot Light - [More Info](#)   -->

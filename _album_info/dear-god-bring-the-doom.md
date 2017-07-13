@@ -4,6 +4,8 @@ artist: No Men
 image: DGBTD.jpg
 GZR: '006'
 bandcamp: 'https://no-men.bandcamp.com/album/dear-god-bring-the-doom'
+itunes: 'https://itunes.apple.com/us/album/dear-god-bring-the-doom/id1162293798'
+spotify: 'https://play.spotify.com/album/2jB7QB8LjJphYcLWE420WZ?play=true&utm_source=open.spotify.com&utm_medium=open'
 ---
 No Men's first proper full-length, _Dear God, Bring The Doom_ was recorded at Two States Audio in northwest Chicago with engineer Brian Fox. Recorded live with minimal overdubs, the album revisits and reimagines tracks like "Brute" and "Wearing All Black (Doesn't Make You Cool)" while introducing eight more new songs, like the first single "Stay Dumb", "Sleeping With The Enemy", and "Violette". Mastered by Carl Saff of Saff Mastering, the album shreds.
 

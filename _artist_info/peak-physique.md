@@ -5,7 +5,6 @@ website: http://www.ilovepeakphysique.com/#bio
 facebook: https://www.facebook.com/ilovepeakphysique/
 twitter: https://twitter.com/PEVKPHYSIQUE
 instagram: https://www.instagram.com/pevkphysique/
-date: '2017-07-11T04:34:39.967+00:00'
 ---
 
 

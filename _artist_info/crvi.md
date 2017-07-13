@@ -4,6 +4,7 @@ artist: CRVI
 image: crvi.jpg
 facebook: 'https://www.facebook.com/Crvi-1720498781523424/'
 youtube: 'https://www.youtube.com/channel/UC4YNZ-dcyz0sVunLmEF6ejw'
+bandcamp: 'https://grupacrvi.bandcamp.com/'
 ---
 CRVI is an indie rock band out of Belgrade, Sebria.
 

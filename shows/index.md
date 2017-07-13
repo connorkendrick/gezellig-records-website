@@ -31,6 +31,8 @@ This is used to separate lines with larger gaps, rather than just new lines
 
 ## Upcoming Shows
 
+### There are currently no upcoming shows for any of our artists
+
 <!-- ### Artist Name
 6/6/2017 - Knoxville, TN @ The Pilot Light - [More Info](#)  
 6/6/2017 - Knoxville, TN @ The Pilot Light - [More Info](#)   -->

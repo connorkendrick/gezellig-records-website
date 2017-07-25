@@ -1,34 +1,6 @@
 ---
 layout: cozyclub_page
 ---
-<!-- Put 2 spaces after a line to begin on a new line on the webpage -->
-<!-- Example (editor view) -->
-<!--
-This line has two spaces at the end, making the line under it show up on a new line in browser  
-If the line above didn't have these spaces, this line would not show up underneath the first line
--->
-<!-- Example (browser view) -->
-<!--
-This line has two spaces at the end, making the line under it show up on a new line in browser
-If the line above didn't have these spaces, this line would not show up underneath the first line
--->
-
-<!-- Press enter twice between lines to create a gap between them on the webpage -->
-<!-- Example (editor view) -->
-<!--
-In the browser, there will be a gap in between this line and the next line
-
-
-This is used to separate lines with larger gaps, rather than just a new line
--->
-
-<!-- Example (browser view) -->
-<!--
-In the browser, there will be a space in between this line and the next line
-
-This is used to separate lines with larger gaps, rather than just new lines
--->
-
 ## Gezellig Records Cozy Club
 
 The Gezellig Records Cozy Club is a subscription series in which subscribers will receive the next 10 consecutive physical releases from Gezellig Records. In addition to the physical releases, subscribers will also receive first access to new releases, free downloads of digital releases, free shipping, and other goodies.

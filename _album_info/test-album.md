@@ -1,9 +1,9 @@
 ---
 layout: album_info_page
 title: Test Album
-artist: ''
-image: ''
-GZR: ''
+artist: Artist
+image: "/images/nomenstill.png"
+GZR: '011'
 itunes: " "
 bandcamp: " "
 googleplay: " "

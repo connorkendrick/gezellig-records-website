@@ -1,9 +1,9 @@
 ---
 layout: album_info_page
 title: Test Album
-artist: ''
-image: ''
-GZR: ''
+artist: No Men
+image: "/images/daily_beacon_square.jpg"
+GZR: '011'
 itunes: " "
 bandcamp: " "
 googleplay: " "

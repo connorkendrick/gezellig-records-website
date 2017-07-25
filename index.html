@@ -7,7 +7,7 @@ layout: default
             <h3>New Releases</h3>
         </div>
 
-        {% assign sorted = (site.album_info | sort: 'GZR') | reverse %}
+        {% assign sorted = (site.album_info | sort: 'GZR') | reverse %} 
         {% for album in sorted limit:6 %}
         <div class="home-page-release-box">
             <div class="home-page-release-box-image">

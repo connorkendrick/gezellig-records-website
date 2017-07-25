@@ -1,6 +1,6 @@
 ---
 layout: artist_info_page
-artist: ''
+artist: Test Artist
 image: ''
 website: " "
 bandcamp: " "
